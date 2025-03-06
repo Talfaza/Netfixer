@@ -24,7 +24,10 @@ jobs:
         uses: actions/setup-go@v4
         with:
           go-version: '1.21'
-
+          
+      - name: cd into backend dir 
+        run: cd ~/backend
+        
       - name: Install Dependencies
         run: go mod tidy
 
