@@ -1,11 +1,13 @@
-FROM golang:1.21
+FROM golang:1.23
 
 WORKDIR /app
 
-COPY . .
+COPY go.mod  ./
 RUN go mod tidy
-RUN go build -o app .
 
+COPY . .
+RUN go build -o app .
+RUN chmod +x app
 EXPOSE 8080
 
-CMD [ "./app" ]
+CMD ["./app"]
