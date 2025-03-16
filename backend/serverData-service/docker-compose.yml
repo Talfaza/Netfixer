@@ -1,0 +1,39 @@
+version: "3.8"
+
+services:
+  server-data-service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: server-data-service
+    restart: unless-stopped
+    environment:
+      DB_HOST: server-data-db
+      DB_USER: ${MYSQL_USER}
+      DB_PASSWORD: ${MYSQL_PASSWORD}
+      DB_NAME: ${MYSQL_DATABASE}
+    ports:
+      - "8083:8080"
+    depends_on:
+      - server-data-db
+    env_file:
+      - .env
+
+  server-data-db:
+    image: mysql:latest
+    container_name: server-data-db
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+    ports:
+      - "3306:3306"
+    volumes:
+      - server-data-db-data:/var/lib/mysql
+    env_file:
+      - .env
+
+volumes:
+  server-data-db-data:
