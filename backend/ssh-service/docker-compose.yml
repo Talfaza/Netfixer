@@ -8,21 +8,21 @@ services:
     container_name: ssh-service
     restart: unless-stopped
     environment:
-      SSH_DB_HOST: auth-db
+      SSH_DB_HOST: ssh-db
       SSH_DB_USER: ${MYSQL_USER}
       SSH_DB_PASSWORD: ${MYSQL_PASSWORD}
       SSH_DB_NAME: ${MYSQL_DATABASE}
     ports:
       - "8085:8080"
     depends_on:
-      - auth-db
-      - auth-password-db
+      - ssh-db
+      - ssh-password-db
     env_file:
       - .env
 
   auth-db:
     image: mysql:latest
-    container_name: auth-db
+    container_name: ssh-db
     restart: unless-stopped
     environment:
       MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
@@ -32,13 +32,13 @@ services:
     ports:
       - "3306:3306"
     volumes:
-      - auth-db-data:/var/lib/mysql
+      - ssh-db-data:/var/lib/mysql
     env_file:
       - .env
 
   auth-password-db:
     image: mysql:latest
-    container_name: auth-password-db
+    container_name: ssh-password-db
     restart: unless-stopped
     environment:
       MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
@@ -48,10 +48,10 @@ services:
     ports:
       - "3307:3306"
     volumes:
-      - auth-password-db-data:/var/lib/mysql
+      - ssh-password-db-data:/var/lib/mysql
     env_file:
       - .env
 
 volumes:
-  auth-db-data:
-  auth-password-db-data:
+  ssh-db-data:
+  ssh-password-db-data:
