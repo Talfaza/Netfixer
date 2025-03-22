@@ -56,14 +56,21 @@ jobs:
           body: "This PR was automatically created to merge dev into main."
           labels: "auto-merge"
           draft: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.TALFAZA_TOKEN }}
+
+      - name: Show PR Number
+        run: echo "Created PR #${{ steps.create-pr.outputs.pr_number }}"
 
   auto_merge:
     needs: [create_pr]
     runs-on: ubuntu-latest
     steps:
       - name: Enable Auto-Merge
+        if: ${{ needs.create_pr.outputs.pr_number != 0 }}
         uses: peter-evans/enable-pull-request-automerge@v2
         with:
           token: ${{ secrets.TALFAZA_TOKEN }}
           pull-request-number: ${{ needs.create_pr.outputs.pr_number }}
           merge-method: squash
+          repository: Talfaza/Netfixer
