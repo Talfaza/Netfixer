@@ -43,12 +43,12 @@ jobs:
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
         with:
+          token: ${{ secrets.TALFAZA_TOKEN }}
           base: main
           branch: dev
           title: "Auto PR from dev to main"
-          body: "iyeh iyeh"
+          body: "This PR was automatically created."
           labels: "auto-merge"
-          token: ${{ secrets.TALFAZA_TOKEN }}
 
   auto_merge:
     needs: create_pr
@@ -58,6 +58,3 @@ jobs:
         uses: pascalgn/automerge-action@v0.15.4
         env:
           GITHUB_TOKEN: ${{ secrets.TALFAZA_TOKEN }}
-        with:
-          pull-request: true
-          merge-method: squash
