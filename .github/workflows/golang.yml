@@ -46,8 +46,9 @@ jobs:
           base: main
           branch: dev
           title: "Auto PR from dev to main"
-          body: "Auto PR to build and merge"
+          body: "iyeh iyeh"
           labels: "auto-merge"
+          token: ${{ secrets.TALFAZA_TOKEN }}
 
   auto_merge:
     needs: create_pr
