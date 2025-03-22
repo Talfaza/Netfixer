@@ -39,11 +39,14 @@ jobs:
   create_pr:
     needs: build
     runs-on: ubuntu-latest
+    outputs:
+      pr_number: ${{ steps.create-pr.outputs.pr_number }}
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
       - name: Create Pull Request
+        id: create-pr
         uses: peter-evans/create-pull-request@v5
         with:
           token: ${{ secrets.TALFAZA_TOKEN }}
@@ -55,12 +58,12 @@ jobs:
           draft: false
 
   auto_merge:
-    needs: create_pr
+    needs: [create_pr]
     runs-on: ubuntu-latest
     steps:
       - name: Enable Auto-Merge
         uses: peter-evans/enable-pull-request-automerge@v2
         with:
           token: ${{ secrets.TALFAZA_TOKEN }}
-          pull-request-from-branch: dev
+          pull-request-number: ${{ needs.create_pr.outputs.pr_number }}
           merge-method: squash
