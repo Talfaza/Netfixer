@@ -1,4 +1,4 @@
-name: Go CI/CD
+name: Go CI
 
 on:
   push:
@@ -33,30 +33,5 @@ jobs:
         run: go build -v ./...
         working-directory: backend
 
-  create_pr:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v3
-
-      - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v5
-        with:
-          base: main
-          branch: dev
-          title: "Auto PR from dev to main"
-          body: "Auto PR to build and merge"
-          labels: "auto-merge"
-
-  auto_merge:
-    needs: create_pr
-    runs-on: ubuntu-latest
-    steps:
-      - name: Enable Auto-Merge
-        uses: pascalgn/automerge-action@v0.15.4
-        env:
-          GITHUB_TOKEN: ${{ secrets.TALFAZA_TOKEN }}
-        with:
-          pull-request: true
-          merge-method: squash
+      #- name: Run Tests
+      #run: go test -v ./...
