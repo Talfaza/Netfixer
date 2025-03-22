@@ -56,18 +56,21 @@ jobs:
           body: "This PR was automatically created to merge dev into main."
           labels: "auto-merge"
           draft: false
-        env:
-          GITHUB_TOKEN: ${{ secrets.TALFAZA_TOKEN }}
 
-      - name: Show PR Number
-        run: echo "Created PR #${{ steps.create-pr.outputs.pr_number }}"
+      - name: Debug PR Creation
+        run: |
+          if [ -z "${{ steps.create-pr.outputs.pr_number }}" ]; then
+            echo "::warning::No PR created - likely no changes detected"
+          else
+            echo "Created PR #${{ steps.create-pr.outputs.pr_number }}"
+          fi
 
   auto_merge:
     needs: [create_pr]
     runs-on: ubuntu-latest
     steps:
       - name: Enable Auto-Merge
-        if: ${{ needs.create_pr.outputs.pr_number != 0 }}
+        if: ${{ needs.create_pr.outputs.pr_number }}
         uses: peter-evans/enable-pull-request-automerge@v2
         with:
           token: ${{ secrets.TALFAZA_TOKEN }}
