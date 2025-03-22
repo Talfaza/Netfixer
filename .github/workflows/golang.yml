@@ -19,7 +19,6 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
@@ -63,5 +62,5 @@ jobs:
         uses: peter-evans/enable-pull-request-automerge@v2
         with:
           token: ${{ secrets.TALFAZA_TOKEN }}
-          pull-request-number: ${{ github.event.pull_request.number }}
+          pull-request-from-branch: dev
           merge-method: squash
