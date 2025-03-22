@@ -12,6 +12,10 @@ on:
     branches:
       - main
 
+permissions:
+  contents: write
+  pull-requests: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -47,14 +51,17 @@ jobs:
           base: main
           branch: dev
           title: "Auto PR from dev to main"
-          body: "This PR was automatically created."
+          body: "This PR was automatically created to merge dev into main."
           labels: "auto-merge"
+          draft: false
 
   auto_merge:
     needs: create_pr
     runs-on: ubuntu-latest
     steps:
       - name: Enable Auto-Merge
-        uses: pascalgn/automerge-action@v0.15.4
-        env:
-          GITHUB_TOKEN: ${{ secrets.TALFAZA_TOKEN }}
+        uses: peter-evans/enable-pull-request-automerge@v2
+        with:
+          token: ${{ secrets.TALFAZA_TOKEN }}
+          pull-request-number: ${{ github.event.pull_request.number }}
+          merge-method: squash
