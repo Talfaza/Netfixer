@@ -1,4 +1,4 @@
-name: Go CI/CD
+name: Go CI
 
 on:
   push:
@@ -12,18 +12,13 @@ on:
     branches:
       - main
 
-permissions:
-  contents: write
-  pull-requests: write
-
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
-        with:
-          fetch-depth: 0 # Required for branch diff check
 
       - name: Setup Go
         uses: actions/setup-go@v4
@@ -38,58 +33,5 @@ jobs:
         run: go build -v ./...
         working-directory: backend
 
-  create_pr:
-    needs: build
-    runs-on: ubuntu-latest
-    outputs:
-      pr_created: ${{ steps.check-changes.outputs.has_changes }}
-      pr_number: ${{ steps.create-pr.outputs.pr_number || 0 }}
-    steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v3
-        with:
-          fetch-depth: 0 # Get full commit history
-
-      - name: Check for Changes
-        id: check-changes
-        run: |
-          if ! git diff --quiet origin/main..origin/dev -- backend/; then
-            echo "has_changes=true" >> $GITHUB_OUTPUT
-          else
-            echo "has_changes=false" >> $GITHUB_OUTPUT
-          fi
-
-      - name: Create Pull Request
-        id: create-pr
-        if: ${{ steps.check-changes.outputs.has_changes == 'true' }}
-        uses: peter-evans/create-pull-request@v5
-        with:
-          token: ${{ secrets.TALFAZA_TOKEN }}
-          base: main
-          branch: dev
-          title: "Auto PR from dev to main"
-          body: "This PR was automatically created to merge dev into main."
-          labels: "auto-merge"
-          draft: false
-          create-only: true # Prevent updating existing PR
-
-      - name: Output PR Status
-        run: |
-          if [ "${{ steps.check-changes.outputs.has_changes }}" = "true" ]; then
-            echo "Created PR #${{ steps.create-pr.outputs.pr_number }}"
-          else
-            echo "::notice::Skipped PR creation - no changes detected"
-          fi
-
-  auto_merge:
-    needs: [create_pr]
-    if: ${{ needs.create_pr.outputs.pr_created == 'true' }}
-    runs-on: ubuntu-latest
-    steps:
-      - name: Enable Auto-Merge
-        uses: peter-evans/enable-pull-request-automerge@v2
-        with:
-          token: ${{ secrets.TALFAZA_TOKEN }}
-          pull-request-number: ${{ needs.create_pr.outputs.pr_number }}
-          merge-method: squash
-          repository: Talfaza/Netfixer
+      #- name: Run Tests
+      #run: go test -v ./...
