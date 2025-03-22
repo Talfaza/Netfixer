@@ -1,13 +1,13 @@
-name: Go CI
+name: Go CI/CD
 
 on:
   push:
     branches:
       - dev
     paths:
-      - '**.go'  
-      - 'go.mod'
-      - 'go.sum'
+      - "**.go"
+      - "go.mod"
+      - "go.sum"
   pull_request:
     branches:
       - main
@@ -23,16 +23,40 @@ jobs:
       - name: Setup Go
         uses: actions/setup-go@v4
         with:
-          go-version: '1.21'
-   
-        
+          go-version: "1.21"
+
       - name: Install Dependencies
         run: go mod tidy
         working-directory: backend
 
       - name: Build Project
-        run: go build -v ./...  
+        run: go build -v ./...
         working-directory: backend
 
-      #- name: Run Tests
-        #run: go test -v ./...
+  create_pr:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v5
+        with:
+          base: main
+          branch: dev
+          title: "Auto PR from dev to main"
+          body: "Auto PR to build and merge"
+          labels: "auto-merge"
+
+  auto_merge:
+    needs: create_pr
+    runs-on: ubuntu-latest
+    steps:
+      - name: Enable Auto-Merge
+        uses: pascalgn/automerge-action@v0.15.4
+        env:
+          GITHUB_TOKEN: ${{ secrets.TALFAZA_TOKEN }}
+        with:
+          pull-request: true
+          merge-method: squash
