@@ -1,5 +1,3 @@
-version: "3.8"
-
 services:
   ssh-service:
     build:
@@ -20,7 +18,7 @@ services:
     env_file:
       - .env
 
-  auth-db:
+  ssh-db:
     image: mysql:latest
     container_name: ssh-db
     restart: unless-stopped
@@ -36,7 +34,7 @@ services:
     env_file:
       - .env
 
-  auth-password-db:
+  ssh-password-db:  
     image: mysql:latest
     container_name: ssh-password-db
     restart: unless-stopped

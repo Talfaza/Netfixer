@@ -2,21 +2,23 @@ package services
 
 import (
 	"fmt"
+
+	"github.com/Netfixer/ssh-service/database"
 	"github.com/Netfixer/ssh-service/models"
 	"github.com/gofiber/fiber/v3"
 	"golang.org/x/crypto/ssh"
 )
 
-func ConnectAndExecute(config models.SSHConfig, command string) (string, error) {
+func ConnectAndExecute(req models.SSHRequest) (string, error) {
 	sshConfig := &ssh.ClientConfig{
-		User: config.Username,
+		User: req.Username,
 		Auth: []ssh.AuthMethod{
-			ssh.Password(config.Password),
+			ssh.Password(req.Password),
 		},
 		HostKeyCallback: ssh.InsecureIgnoreHostKey(),
 	}
 
-	client, err := ssh.Dial("tcp", fmt.Sprintf("%s:%s", config.Host, config.Port), sshConfig)
+	client, err := ssh.Dial("tcp", fmt.Sprintf("%s:%s", req.Host, req.Port), sshConfig)
 	if err != nil {
 		return "", fmt.Errorf("failed to dial: %v", err)
 	}
@@ -28,7 +30,7 @@ func ConnectAndExecute(config models.SSHConfig, command string) (string, error) 
 	}
 	defer session.Close()
 
-	output, err := session.CombinedOutput(command)
+	output, err := session.CombinedOutput(req.Command)
 	if err != nil {
 		return "", fmt.Errorf("failed to run command: %v", err)
 	}
@@ -45,14 +47,25 @@ func ExecuteCommand(c fiber.Ctx) error {
 		})
 	}
 
+	if database.DB == nil {
+		return c.Status(fiber.StatusInternalServerError).JSON(fiber.Map{
+			"error": "Database not connected",
+		})
+	}
+
 	config := models.SSHConfig{
 		Username: req.Username,
-		Password: req.Password,
 		Host:     req.Host,
 		Port:     req.Port,
 	}
 
-	output, err := ConnectAndExecute(config, req.Command)
+	if err := database.DB.Create(&config).Error; err != nil {
+		return c.Status(fiber.StatusInternalServerError).JSON(fiber.Map{
+			"error": "Failed to store SSH config",
+		})
+	}
+
+	output, err := ConnectAndExecute(req)
 	if err != nil {
 		return c.Status(fiber.StatusInternalServerError).JSON(fiber.Map{
 			"error": fmt.Sprintf("Error executing command: %v", err),
