@@ -1,0 +1,180 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 221.2 83.2% 53.3%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 221.2 83.2% 53.3%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 217.2 91.2% 59.8%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 224.3 76.3% 48%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Floating Balls Animation */
+.floating-balls-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.floating-ball {
+  position: absolute;
+  border-radius: 50%;
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.05) 100%);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2), inset 0 0 0 1px rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  animation: float-ball 15s infinite ease-in-out;
+}
+
+.ball-1 {
+  width: 120px;
+  height: 120px;
+  top: 10%;
+  left: 10%;
+  background: linear-gradient(145deg, rgba(59, 130, 246, 0.3) 0%, rgba(37, 99, 235, 0.1) 100%);
+  animation-duration: 20s;
+}
+
+.ball-2 {
+  width: 180px;
+  height: 180px;
+  top: 60%;
+  right: 15%;
+  background: linear-gradient(145deg, rgba(99, 102, 241, 0.3) 0%, rgba(79, 70, 229, 0.1) 100%);
+  animation-duration: 25s;
+  animation-delay: -5s;
+}
+
+.ball-3 {
+  width: 100px;
+  height: 100px;
+  bottom: 15%;
+  left: 20%;
+  background: linear-gradient(145deg, rgba(16, 185, 129, 0.3) 0%, rgba(5, 150, 105, 0.1) 100%);
+  animation-duration: 18s;
+  animation-delay: -10s;
+}
+
+.ball-4 {
+  width: 150px;
+  height: 150px;
+  top: 30%;
+  left: 60%;
+  background: linear-gradient(145deg, rgba(139, 92, 246, 0.3) 0%, rgba(124, 58, 237, 0.1) 100%);
+  animation-duration: 22s;
+  animation-delay: -7s;
+}
+
+.ball-5 {
+  width: 90px;
+  height: 90px;
+  top: 70%;
+  left: 40%;
+  background: linear-gradient(145deg, rgba(239, 68, 68, 0.3) 0%, rgba(220, 38, 38, 0.1) 100%);
+  animation-duration: 19s;
+  animation-delay: -3s;
+}
+
+.ball-6 {
+  width: 200px;
+  height: 200px;
+  top: 20%;
+  right: 5%;
+  background: linear-gradient(145deg, rgba(245, 158, 11, 0.3) 0%, rgba(217, 119, 6, 0.1) 100%);
+  animation-duration: 23s;
+  animation-delay: -12s;
+}
+
+.ball-7 {
+  width: 130px;
+  height: 130px;
+  bottom: 10%;
+  right: 25%;
+  background: linear-gradient(145deg, rgba(14, 165, 233, 0.3) 0%, rgba(2, 132, 199, 0.1) 100%);
+  animation-duration: 21s;
+  animation-delay: -9s;
+}
+
+@keyframes float-ball {
+  0% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  20% {
+    transform: translate(-30px, 30px) rotate(5deg);
+  }
+  40% {
+    transform: translate(30px, 60px) rotate(-5deg);
+  }
+  60% {
+    transform: translate(40px, -30px) rotate(3deg);
+  }
+  80% {
+    transform: translate(-20px, -40px) rotate(-3deg);
+  }
+  100% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+}
+
+/* Background pattern */
+.bg-auth-pattern {
+  background-image: radial-gradient(circle at 25% 25%, rgba(99, 102, 241, 0.05) 0%, transparent 50%),
+    radial-gradient(circle at 75% 75%, rgba(16, 185, 129, 0.05) 0%, transparent 50%),
+    radial-gradient(circle at 85% 15%, rgba(59, 130, 246, 0.05) 0%, transparent 50%),
+    radial-gradient(circle at 15% 85%, rgba(139, 92, 246, 0.05) 0%, transparent 50%),
+    linear-gradient(135deg, rgba(15, 23, 42, 1) 0%, rgba(23, 37, 84, 1) 100%);
+}
