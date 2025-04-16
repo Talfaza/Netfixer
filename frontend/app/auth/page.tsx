@@ -1,38 +1,38 @@
-"use client"
+"use client";
 
-import type React from "react"
+import type React from "react";
 
-import { useState } from "react"
-import Link from "next/link"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+import { useState } from "react";
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 export default function AuthPage() {
-  const [isLoading, setIsLoading] = useState(false)
+  const [isLoading, setIsLoading] = useState(false);
 
   const handleLogin = (e: React.FormEvent) => {
-    e.preventDefault()
-    setIsLoading(true)
+    e.preventDefault();
+    setIsLoading(true);
     // Simulate API call
     setTimeout(() => {
-      setIsLoading(false)
+      setIsLoading(false);
       // Redirect to dashboard would happen here after successful login
-      window.location.href = "/"
-    }, 1000)
-  }
+      window.location.href = "/";
+    }, 1000);
+  };
 
   const handleSignup = (e: React.FormEvent) => {
-    e.preventDefault()
-    setIsLoading(true)
+    e.preventDefault();
+    setIsLoading(true);
     // Simulate API call
     setTimeout(() => {
-      setIsLoading(false)
+      setIsLoading(false);
       // Redirect to dashboard would happen here after successful signup
-      window.location.href = "/"
-    }, 1000)
-  }
+      window.location.href = "/";
+    }, 1000);
+  };
 
   return (
     <div className="relative flex min-h-screen items-center justify-center overflow-hidden bg-auth-pattern bg-cover bg-center bg-no-repeat p-4">
@@ -97,11 +97,16 @@ export default function AuthPage() {
                 <Input
                   id="password-login"
                   type="password"
+                  placeholder="*********"
                   required
                   className="bg-slate-800/70 border-slate-700/70 backdrop-blur-sm"
                 />
               </div>
-              <Button type="submit" className="w-full bg-blue-600 hover:bg-blue-700" disabled={isLoading}>
+              <Button
+                type="submit"
+                className="w-full bg-blue-600 hover:bg-blue-700"
+                disabled={isLoading}
+              >
                 {isLoading ? "Logging in..." : "Login"}
               </Button>
             </form>
@@ -114,7 +119,7 @@ export default function AuthPage() {
                 <Input
                   id="name-signup"
                   type="text"
-                  placeholder="John Doe"
+                  placeholder="name"
                   required
                   className="bg-slate-800/70 border-slate-700/70 backdrop-blur-sm"
                 />
@@ -134,6 +139,7 @@ export default function AuthPage() {
                 <Input
                   id="password-signup"
                   type="password"
+                  placeholder="*********"
                   required
                   className="bg-slate-800/70 border-slate-700/70 backdrop-blur-sm"
                 />
@@ -143,29 +149,22 @@ export default function AuthPage() {
                 <Input
                   id="confirm-password"
                   type="password"
+                  placeholder="*********"
                   required
                   className="bg-slate-800/70 border-slate-700/70 backdrop-blur-sm"
                 />
               </div>
-              <Button type="submit" className="w-full bg-blue-600 hover:bg-blue-700" disabled={isLoading}>
+              <Button
+                type="submit"
+                className="w-full bg-blue-600 hover:bg-blue-700"
+                disabled={isLoading}
+              >
                 {isLoading ? "Creating account..." : "Create Account"}
               </Button>
             </form>
           </TabsContent>
         </Tabs>
-
-        <div className="text-center text-xs text-slate-400">
-          By continuing, you agree to our{" "}
-          <Link href="/terms" className="text-blue-400 hover:text-blue-300">
-            Terms of Service
-          </Link>{" "}
-          and{" "}
-          <Link href="/privacy" className="text-blue-400 hover:text-blue-300">
-            Privacy Policy
-          </Link>
-          .
-        </div>
       </div>
     </div>
-  )
+  );
 }
