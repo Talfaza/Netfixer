@@ -8,10 +8,10 @@ services:
     container_name: auth-service
     restart: unless-stopped
     environment:
-      SSH_DB_HOST: auth-db
-      SSH_DB_USER: ${MYSQL_USER}
-      SSH_DB_PASSWORD: ${MYSQL_PASSWORD}
-      SSH_DB_NAME: ${MYSQL_DATABASE}
+      AUTH_DB_HOST: auth-db
+      AUTH_DB_USER: ${MYSQL_USER}
+      AUTH_DB_PASSWORD: ${MYSQL_PASSWORD}
+      AUTh_DB_NAME: ${MYSQL_DATABASE}
     ports:
       - "8085:8080"
     depends_on:
