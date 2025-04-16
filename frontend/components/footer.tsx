@@ -1,8 +1,8 @@
-import Link from "next/link"
-import { FileText, Code, HelpCircle, Linkedin, Github } from "lucide-react"
+import Link from "next/link";
+import { FileText, Code, HelpCircle, Linkedin, Github } from "lucide-react";
 
 export function Footer() {
-  const currentYear = new Date().getFullYear()
+  const currentYear = new Date().getFullYear();
 
   return (
     <footer className="border-t border-slate-800 bg-slate-900 py-8 px-6">
@@ -31,7 +31,9 @@ export function Footer() {
               </div>
               <span className="text-sm font-medium text-white">Netfixer</span>
             </div>
-            <p className="text-xs text-slate-400">Advanced system monitoring platform</p>
+            <p className="text-xs text-slate-400">
+              Advanced system monitoring platform
+            </p>
             <div className="text-xs text-slate-400">support@netfixer.com</div>
           </div>
 
@@ -39,16 +41,22 @@ export function Footer() {
           <div className="flex flex-col md:items-end justify-between">
             {/* Navigation buttons next to each other */}
             <div className="flex items-center space-x-6">
-              <Link href="/docs" className="flex items-center gap-2 text-slate-400 hover:text-white transition-colors">
+              <Link
+                href="/docs"
+                className="flex items-center gap-2 text-slate-400 hover:text-white transition-colors"
+              >
                 <FileText className="h-4 w-4" />
                 <span>Documentation</span>
               </Link>
-              <Link href="/api" className="flex items-center gap-2 text-slate-400 hover:text-white transition-colors">
+              <Link
+                href="/docs"
+                className="flex items-center gap-2 text-slate-400 hover:text-white transition-colors"
+              >
                 <Code className="h-4 w-4" />
                 <span>API</span>
               </Link>
               <Link
-                href="/troubleshooting"
+                href="/docs"
                 className="flex items-center gap-2 text-slate-400 hover:text-white transition-colors"
               >
                 <HelpCircle className="h-4 w-4" />
@@ -86,5 +94,5 @@ export function Footer() {
         </div>
       </div>
     </footer>
-  )
+  );
 }

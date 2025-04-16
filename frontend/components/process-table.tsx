@@ -92,6 +92,18 @@ const mockProcesses = [
     user: "user1",
     alert: true,
   },
+
+  {
+    id: 12,
+    name: "python",
+    pid: 1678,
+    cpu: 15.2,
+    memory: "520MB",
+    type: "user",
+    command: "python3 data_processor.py",
+    user: "user1",
+    alert: true,
+  },
 ]
 
 interface ProcessTableProps {
@@ -301,9 +313,8 @@ export default function ProcessTable({ filterType }: ProcessTableProps) {
                     <div className="flex items-center gap-2">
                       <div className="w-12 h-1.5 rounded-full bg-slate-700 overflow-hidden border border-white/10">
                         <div
-                          className={`h-full ${
-                            process.cpu > 10 ? "bg-red-500" : process.cpu > 5 ? "bg-amber-500" : "bg-green-500"
-                          }`}
+                          className={`h-full ${process.cpu > 10 ? "bg-red-500" : process.cpu > 5 ? "bg-amber-500" : "bg-green-500"
+                            }`}
                           style={{ width: `${Math.min(process.cpu * 5, 100)}%` }}
                         />
                       </div>
