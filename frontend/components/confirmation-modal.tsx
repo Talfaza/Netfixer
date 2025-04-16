@@ -1,16 +1,22 @@
-"use client"
+"use client";
 
-import { Button } from "@/components/ui/button"
-import { Dialog, DialogContent, DialogFooter, DialogHeader, DialogTitle } from "@/components/ui/dialog"
-import { AlertTriangle, XCircle, RefreshCw } from "lucide-react"
+import { Button } from "@/components/ui/button";
+import {
+  Dialog,
+  DialogContent,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
+import { AlertTriangle, XCircle, RefreshCw } from "lucide-react";
 
 interface ConfirmationModalProps {
-  isOpen: boolean
-  onClose: () => void
-  onConfirm: () => void
-  title: string
-  description: string
-  actionType: "restart" | "kill"
+  isOpen: boolean;
+  onClose: () => void;
+  onConfirm: () => void;
+  title: string;
+  description: string;
+  actionType: "restart" | "kill";
 }
 
 export function ConfirmationModal({
@@ -27,7 +33,7 @@ export function ConfirmationModal({
         <DialogHeader className="p-6 pb-0">
           <DialogTitle className="flex items-center gap-2 text-xl">
             {actionType === "restart" ? (
-              <RefreshCw className="h-5 w-5 text-amber-500" />
+              <RefreshCw className="h-5 w-5 text-green-500" />
             ) : (
               <XCircle className="h-5 w-5 text-red-500" />
             )}
@@ -37,7 +43,7 @@ export function ConfirmationModal({
 
         {/* Warning message - now directly below the title */}
         <div className="mx-6 mt-4 rounded-md bg-slate-800/80 p-4 flex items-start gap-3 border border-white/20">
-          <AlertTriangle className="h-5 w-5 text-amber-500 mt-0.5" />
+          <AlertTriangle className="h-5 w-5 text-green-500 mt-0.5" />
           <div className="text-sm text-slate-300">
             {actionType === "restart"
               ? "This will temporarily interrupt the process. Any unsaved data may be lost."
@@ -58,12 +64,12 @@ export function ConfirmationModal({
           </Button>
           <Button
             onClick={() => {
-              onConfirm()
-              onClose()
+              onConfirm();
+              onClose();
             }}
             className={
               actionType === "restart"
-                ? "bg-amber-600 hover:bg-amber-700 text-white border border-white/30"
+                ? "bg-green-500 hover:bg-green-700 text-white border border-white/30"
                 : "bg-red-600 hover:bg-red-700 text-white border border-white/30"
             }
           >
@@ -72,5 +78,5 @@ export function ConfirmationModal({
         </DialogFooter>
       </DialogContent>
     </Dialog>
-  )
+  );
 }
