@@ -1,0 +1,5015 @@
+{
+
+  "timestamp": "2023-10-01T12:00:00Z",
+  "systemMetrics": {
+    "cpuUsage": 57.8,
+    "totalMemory": "64GB",
+    "usedMemory": "30.7GB",
+    "diskUsage": {
+      "total": "2TB",
+      "used": "781GB"
+    }
+      },
+  "processes": [
+    {
+      "id": 1,
+      "name": "safari",
+      "pid": 2001,
+      "cpu": 10.6,
+      "memory": "906MB",
+      "type": "user",
+      "command": "/Applications/Safari.app/Contents/MacOS/Safari",
+      "user": "alice"
+    },
+    {
+      "id": 2,
+      "name": "dropbox",
+      "pid": 2002,
+      "cpu": 8.0,
+      "memory": "1.6GB",
+      "type": "user",
+      "command": "/Applications/Dropbox.app/Contents/MacOS/Dropbox",
+      "user": "mysql"
+    },
+    {
+      "id": 3,
+      "name": "terminal",
+      "pid": 2003,
+      "cpu": 10.8,
+      "memory": "319MB",
+      "type": "service",
+      "command": "/usr/bin/terminal",
+      "user": "postgres"
+    },
+    {
+      "id": 4,
+      "name": "postgres",
+      "pid": 2004,
+      "cpu": 7.7,
+      "memory": "1.4GB",
+      "type": "system",
+      "command": "/usr/bin/postgres",
+      "user": "bob"
+    },
+    {
+      "id": 5,
+      "name": "slack",
+      "pid": 2005,
+      "cpu": 6.0,
+      "memory": "1.8GB",
+      "type": "system",
+      "command": "/usr/bin/slack",
+      "user": "postgres"
+    },
+    {
+      "id": 6,
+      "name": "java",
+      "pid": 2006,
+      "cpu": 9.1,
+      "memory": "882MB",
+      "type": "system",
+      "command": "/usr/bin/java",
+      "user": "mongodb"
+    },
+    {
+      "id": 7,
+      "name": "code",
+      "pid": 2007,
+      "cpu": 10.3,
+      "memory": "818MB",
+      "type": "user",
+      "command": "/Applications/Code.app/Contents/MacOS/Code",
+      "user": "alice"
+    },
+    {
+      "id": 8,
+      "name": "terminal",
+      "pid": 2008,
+      "cpu": 11.4,
+      "memory": "1.2GB",
+      "type": "system",
+      "command": "/usr/bin/terminal",
+      "user": "mysql"
+    },
+    {
+      "id": 9,
+      "name": "dropbox",
+      "pid": 2009,
+      "cpu": 11.1,
+      "memory": "1.1GB",
+      "type": "service",
+      "command": "/usr/bin/dropbox",
+      "user": "root"
+    },
+    {
+      "id": 10,
+      "name": "python",
+      "pid": 2010,
+      "cpu": 9.5,
+      "memory": "799MB",
+      "type": "user",
+      "command": "/Applications/Python.app/Contents/MacOS/Python",
+      "user": "www-data"
+    },
+    {
+      "id": 11,
+      "name": "vscode",
+      "pid": 2011,
+      "cpu": 3.6,
+      "memory": "1.5GB",
+      "type": "service",
+      "command": "/usr/bin/vscode",
+      "user": "root"
+    },
+    {
+      "id": 12,
+      "name": "spotify",
+      "pid": 2012,
+      "cpu": 7.5,
+      "memory": "1.1GB",
+      "type": "system",
+      "command": "/usr/bin/spotify",
+      "user": "redis"
+    },
+    {
+      "id": 13,
+      "name": "redis",
+      "pid": 2013,
+      "cpu": 4.6,
+      "memory": "1.3GB",
+      "type": "service",
+      "command": "/usr/bin/redis",
+      "user": "mongodb"
+    },
+    {
+      "id": 14,
+      "name": "nginx",
+      "pid": 2014,
+      "cpu": 5.5,
+      "memory": "186MB",
+      "type": "user",
+      "command": "/Applications/Nginx.app/Contents/MacOS/Nginx",
+      "user": "redis"
+    },
+    {
+      "id": 15,
+      "name": "firefox",
+      "pid": 2015,
+      "cpu": 2.7,
+      "memory": "1.6GB",
+      "type": "system",
+      "command": "/usr/bin/firefox",
+      "user": "postgres"
+    },
+    {
+      "id": 16,
+      "name": "safari",
+      "pid": 2016,
+      "cpu": 9.1,
+      "memory": "350MB",
+      "type": "system",
+      "command": "/usr/bin/safari",
+      "user": "mysql"
+    },
+    {
+      "id": 17,
+      "name": "mysql",
+      "pid": 2017,
+      "cpu": 0.6,
+      "memory": "1.4GB",
+      "type": "user",
+      "command": "/Applications/Mysql.app/Contents/MacOS/Mysql",
+      "user": "mongodb"
+    },
+    {
+      "id": 18,
+      "name": "code",
+      "pid": 2018,
+      "cpu": 5.0,
+      "memory": "421MB",
+      "type": "user",
+      "command": "/Applications/Code.app/Contents/MacOS/Code",
+      "user": "www-data"
+    },
+    {
+      "id": 19,
+      "name": "teams",
+      "pid": 2019,
+      "cpu": 2.3,
+      "memory": "195MB",
+      "type": "user",
+      "command": "/Applications/Teams.app/Contents/MacOS/Teams",
+      "user": "root"
+    },
+    {
+      "id": 20,
+      "name": "zoom",
+      "pid": 2020,
+      "cpu": 12.3,
+      "memory": "1.9GB",
+      "type": "system",
+      "command": "/usr/bin/zoom",
+      "user": "bob"
+    },
+    {
+      "id": 21,
+      "name": "postgres",
+      "pid": 2021,
+      "cpu": 11.2,
+      "memory": "744MB",
+      "type": "system",
+      "command": "/usr/bin/postgres",
+      "user": "postgres"
+    },
+    {
+      "id": 22,
+      "name": "firefox",
+      "pid": 2022,
+      "cpu": 0.2,
+      "memory": "1.8GB",
+      "type": "user",
+      "command": "/Applications/Firefox.app/Contents/MacOS/Firefox",
+      "user": "postgres"
+    },
+    {
+      "id": 23,
+      "name": "dropbox",
+      "pid": 2023,
+      "cpu": 7.1,
+      "memory": "560MB",
+      "type": "system",
+      "command": "/usr/bin/dropbox",
+      "user": "postgres"
+    },
+    {
+      "id": 24,
+      "name": "postgres",
+      "pid": 2024,
+      "cpu": 3.4,
+      "memory": "818MB",
+      "type": "user",
+      "command": "/Applications/Postgres.app/Contents/MacOS/Postgres",
+      "user": "redis"
+    },
+    {
+      "id": 25,
+      "name": "xcode",
+      "pid": 2025,
+      "cpu": 2.1,
+      "memory": "354MB",
+      "type": "service",
+      "command": "/usr/bin/xcode",
+      "user": "redis"
+    },
+    {
+      "id": 26,
+      "name": "mysql",
+      "pid": 2026,
+      "cpu": 7.5,
+      "memory": "509MB",
+      "type": "user",
+      "command": "/Applications/Mysql.app/Contents/MacOS/Mysql",
+      "user": "redis"
+    },
+    {
+      "id": 27,
+      "name": "code",
+      "pid": 2027,
+      "cpu": 9.5,
+      "memory": "1.3GB",
+      "type": "user",
+      "command": "/Applications/Code.app/Contents/MacOS/Code",
+      "user": "root"
+    },
+    {
+      "id": 28,
+      "name": "java",
+      "pid": 2028,
+      "cpu": 3.5,
+      "memory": "372MB",
+      "type": "service",
+      "command": "/usr/bin/java",
+      "user": "alice"
+    },
+    {
+      "id": 29,
+      "name": "node",
+      "pid": 2029,
+      "cpu": 3.4,
+      "memory": "37MB",
+      "type": "system",
+      "command": "/usr/bin/node",
+      "user": "postgres"
+    },
+    {
+      "id": 30,
+      "name": "terminal",
+      "pid": 2030,
+      "cpu": 6.9,
+      "memory": "615MB",
+      "type": "service",
+      "command": "/usr/bin/terminal",
+      "user": "bob"
+    },
+    {
+      "id": 31,
+      "name": "mysql",
+      "pid": 2031,
+      "cpu": 12.6,
+      "memory": "180MB",
+      "type": "service",
+      "command": "/usr/bin/mysql",
+      "user": "mysql"
+    },
+    {
+      "id": 32,
+      "name": "dropbox",
+      "pid": 2032,
+      "cpu": 6.6,
+      "memory": "1.1GB",
+      "type": "user",
+      "command": "/Applications/Dropbox.app/Contents/MacOS/Dropbox",
+      "user": "bob"
+    },
+    {
+      "id": 33,
+      "name": "postgres",
+      "pid": 2033,
+      "cpu": 12.7,
+      "memory": "1.7GB",
+      "type": "service",
+      "command": "/usr/bin/postgres",
+      "user": "alice"
+    },
+    {
+      "id": 34,
+      "name": "teams",
+      "pid": 2034,
+      "cpu": 7.6,
+      "memory": "742MB",
+      "type": "system",
+      "command": "/usr/bin/teams",
+      "user": "root"
+    },
+    {
+      "id": 35,
+      "name": "java",
+      "pid": 2035,
+      "cpu": 4.7,
+      "memory": "1.6GB",
+      "type": "system",
+      "command": "/usr/bin/java",
+      "user": "bob"
+    },
+    {
+      "id": 36,
+      "name": "zoom",
+      "pid": 2036,
+      "cpu": 9.1,
+      "memory": "1.4GB",
+      "type": "system",
+      "command": "/usr/bin/zoom",
+      "user": "mysql"
+    },
+    {
+      "id": 37,
+      "name": "chrome",
+      "pid": 2037,
+      "cpu": 6.3,
+      "memory": "965MB",
+      "type": "service",
+      "command": "/usr/bin/chrome",
+      "user": "postgres"
+    },
+    {
+      "id": 38,
+      "name": "spotify",
+      "pid": 2038,
+      "cpu": 13.7,
+      "memory": "362MB",
+      "type": "user",
+      "command": "/Applications/Spotify.app/Contents/MacOS/Spotify",
+      "user": "root"
+    },
+    {
+      "id": 39,
+      "name": "safari",
+      "pid": 2039,
+      "cpu": 1.5,
+      "memory": "72MB",
+      "type": "system",
+      "command": "/usr/bin/safari",
+      "user": "root"
+    },
+    {
+      "id": 40,
+      "name": "terminal",
+      "pid": 2040,
+      "cpu": 14.6,
+      "memory": "1.1GB",
+      "type": "system",
+      "command": "/usr/bin/terminal",
+      "user": "redis"
+    },
+    {
+      "id": 41,
+      "name": "zoom",
+      "pid": 2041,
+      "cpu": 1.9,
+      "memory": "897MB",
+      "type": "user",
+      "command": "/Applications/Zoom.app/Contents/MacOS/Zoom",
+      "user": "postgres"
+    },
+    {
+      "id": 42,
+      "name": "dropbox",
+      "pid": 2042,
+      "cpu": 6.3,
+      "memory": "1.4GB",
+      "type": "user",
+      "command": "/Applications/Dropbox.app/Contents/MacOS/Dropbox",
+      "user": "www-data"
+    },
+    {
+      "id": 43,
+      "name": "spotify",
+      "pid": 2043,
+      "cpu": 14.4,
+      "memory": "547MB",
+      "type": "service",
+      "command": "/usr/bin/spotify",
+      "user": "mongodb"
+    },
+    {
+      "id": 44,
+      "name": "terminal",
+      "pid": 2044,
+      "cpu": 0.4,
+      "memory": "474MB",
+      "type": "system",
+      "command": "/usr/bin/terminal",
+      "user": "root"
+    },
+    {
+      "id": 45,
+      "name": "java",
+      "pid": 2045,
+      "cpu": 8.7,
+      "memory": "510MB",
+      "type": "service",
+      "command": "/usr/bin/java",
+      "user": "alice"
+    },
+    {
+      "id": 46,
+      "name": "redis",
+      "pid": 2046,
+      "cpu": 13.8,
+      "memory": "938MB",
+      "type": "service",
+      "command": "/usr/bin/redis",
+      "user": "bob"
+    },
+    {
+      "id": 47,
+      "name": "node",
+      "pid": 2047,
+      "cpu": 13.5,
+      "memory": "638MB",
+      "type": "system",
+      "command": "/usr/bin/node",
+      "user": "mongodb"
+    },
+    {
+      "id": 48,
+      "name": "spotify",
+      "pid": 2048,
+      "cpu": 6.2,
+      "memory": "1.4GB",
+      "type": "user",
+      "command": "/Applications/Spotify.app/Contents/MacOS/Spotify",
+      "user": "bob"
+    },
+    {
+      "id": 49,
+      "name": "redis",
+      "pid": 2049,
+      "cpu": 12.0,
+      "memory": "1.9GB",
+      "type": "service",
+      "command": "/usr/bin/redis",
+      "user": "mongodb"
+    },
+    {
+      "id": 50,
+      "name": "nginx",
+      "pid": 2050,
+      "cpu": 5.6,
+      "memory": "1.1GB",
+      "type": "user",
+      "command": "/Applications/Nginx.app/Contents/MacOS/Nginx",
+      "user": "root"
+    },
+    {
+      "id": 51,
+      "name": "mongodb",
+      "pid": 2051,
+      "cpu": 14.5,
+      "memory": "764MB",
+      "type": "system",
+      "command": "/usr/bin/mongodb",
+      "user": "root"
+    },
+    {
+      "id": 52,
+      "name": "python",
+      "pid": 2052,
+      "cpu": 0.5,
+      "memory": "27MB",
+      "type": "service",
+      "command": "/usr/bin/python",
+      "user": "alice"
+    },
+    {
+      "id": 53,
+      "name": "mysql",
+      "pid": 2053,
+      "cpu": 13.3,
+      "memory": "1.5GB",
+      "type": "system",
+      "command": "/usr/bin/mysql",
+      "user": "mysql"
+    },
+    {
+      "id": 54,
+      "name": "slack",
+      "pid": 2054,
+      "cpu": 9.3,
+      "memory": "355MB",
+      "type": "service",
+      "command": "/usr/bin/slack",
+      "user": "mongodb"
+    },
+    {
+      "id": 55,
+      "name": "vscode",
+      "pid": 2055,
+      "cpu": 6.5,
+      "memory": "1.2GB",
+      "type": "service",
+      "command": "/usr/bin/vscode",
+      "user": "bob"
+    },
+    {
+      "id": 56,
+      "name": "intellij",
+      "pid": 2056,
+      "cpu": 6.7,
+      "memory": "1.6GB",
+      "type": "system",
+      "command": "/usr/bin/intellij",
+      "user": "mongodb"
+    },
+    {
+      "id": 57,
+      "name": "spotify",
+      "pid": 2057,
+      "cpu": 3.0,
+      "memory": "524MB",
+      "type": "system",
+      "command": "/usr/bin/spotify",
+      "user": "alice"
+    },
+    {
+      "id": 58,
+      "name": "zoom",
+      "pid": 2058,
+      "cpu": 10.0,
+      "memory": "1.3GB",
+      "type": "service",
+      "command": "/usr/bin/zoom",
+      "user": "www-data"
+    },
+    {
+      "id": 59,
+      "name": "slack",
+      "pid": 2059,
+      "cpu": 9.7,
+      "memory": "317MB",
+      "type": "system",
+      "command": "/usr/bin/slack",
+      "user": "mongodb"
+    },
+    {
+      "id": 60,
+      "name": "firefox",
+      "pid": 2060,
+      "cpu": 14.7,
+      "memory": "178MB",
+      "type": "service",
+      "command": "/usr/bin/firefox",
+      "user": "mysql"
+    },
+    {
+      "id": 61,
+      "name": "spotify",
+      "pid": 2061,
+      "cpu": 3.0,
+      "memory": "1.2GB",
+      "type": "system",
+      "command": "/usr/bin/spotify",
+      "user": "root"
+    },
+    {
+      "id": 62,
+      "name": "redis",
+      "pid": 2062,
+      "cpu": 13.9,
+      "memory": "98MB",
+      "type": "user",
+      "command": "/Applications/Redis.app/Contents/MacOS/Redis",
+      "user": "alice"
+    },
+    {
+      "id": 63,
+      "name": "slack",
+      "pid": 2063,
+      "cpu": 12.8,
+      "memory": "56MB",
+      "type": "user",
+      "command": "/Applications/Slack.app/Contents/MacOS/Slack",
+      "user": "mysql"
+    },
+    {
+      "id": 64,
+      "name": "vscode",
+      "pid": 2064,
+      "cpu": 7.6,
+      "memory": "1022MB",
+      "type": "user",
+      "command": "/Applications/Vscode.app/Contents/MacOS/Vscode",
+      "user": "mysql"
+    },
+    {
+      "id": 65,
+      "name": "chrome",
+      "pid": 2065,
+      "cpu": 9.5,
+      "memory": "271MB",
+      "type": "user",
+      "command": "/Applications/Chrome.app/Contents/MacOS/Chrome",
+      "user": "www-data"
+    },
+    {
+      "id": 66,
+      "name": "redis",
+      "pid": 2066,
+      "cpu": 12.5,
+      "memory": "703MB",
+      "type": "service",
+      "command": "/usr/bin/redis",
+      "user": "postgres"
+    },
+    {
+      "id": 67,
+      "name": "safari",
+      "pid": 2067,
+      "cpu": 9.1,
+      "memory": "1.7GB",
+      "type": "system",
+      "command": "/usr/bin/safari",
+      "user": "redis"
+    },
+    {
+      "id": 68,
+      "name": "nginx",
+      "pid": 2068,
+      "cpu": 1.4,
+      "memory": "1.6GB",
+      "type": "system",
+      "command": "/usr/bin/nginx",
+      "user": "bob"
+    },
+    {
+      "id": 69,
+      "name": "docker",
+      "pid": 2069,
+      "cpu": 8.1,
+      "memory": "483MB",
+      "type": "service",
+      "command": "/usr/bin/docker",
+      "user": "redis"
+    },
+    {
+      "id": 70,
+      "name": "java",
+      "pid": 2070,
+      "cpu": 9.5,
+      "memory": "1.2GB",
+      "type": "service",
+      "command": "/usr/bin/java",
+      "user": "mysql"
+    },
+    {
+      "id": 71,
+      "name": "nginx",
+      "pid": 2071,
+      "cpu": 12.7,
+      "memory": "1.9GB",
+      "type": "system",
+      "command": "/usr/bin/nginx",
+      "user": "redis"
+    },
+    {
+      "id": 72,
+      "name": "slack",
+      "pid": 2072,
+      "cpu": 14.1,
+      "memory": "1.6GB",
+      "type": "service",
+      "command": "/usr/bin/slack",
+      "user": "redis"
+    },
+    {
+      "id": 73,
+      "name": "mysql",
+      "pid": 2073,
+      "cpu": 6.6,
+      "memory": "559MB",
+      "type": "user",
+      "command": "/Applications/Mysql.app/Contents/MacOS/Mysql",
+      "user": "postgres"
+    },
+    {
+      "id": 74,
+      "name": "mysql",
+      "pid": 2074,
+      "cpu": 3.8,
+      "memory": "1.0GB",
+      "type": "system",
+      "command": "/usr/bin/mysql",
+      "user": "mysql"
+    },
+    {
+      "id": 75,
+      "name": "postgres",
+      "pid": 2075,
+      "cpu": 5.7,
+      "memory": "1.5GB",
+      "type": "system",
+      "command": "/usr/bin/postgres",
+      "user": "redis"
+    },
+    {
+      "id": 76,
+      "name": "node",
+      "pid": 2076,
+      "cpu": 1.0,
+      "memory": "106MB",
+      "type": "service",
+      "command": "/usr/bin/node",
+      "user": "mongodb"
+    },
+    {
+      "id": 77,
+      "name": "redis",
+      "pid": 2077,
+      "cpu": 3.7,
+      "memory": "263MB",
+      "type": "service",
+      "command": "/usr/bin/redis",
+      "user": "alice"
+    },
+    {
+      "id": 78,
+      "name": "intellij",
+      "pid": 2078,
+      "cpu": 7.1,
+      "memory": "762MB",
+      "type": "system",
+      "command": "/usr/bin/intellij",
+      "user": "root"
+    },
+    {
+      "id": 79,
+      "name": "teams",
+      "pid": 2079,
+      "cpu": 6.3,
+      "memory": "1.2GB",
+      "type": "user",
+      "command": "/Applications/Teams.app/Contents/MacOS/Teams",
+      "user": "redis"
+    },
+    {
+      "id": 80,
+      "name": "postgres",
+      "pid": 2080,
+      "cpu": 3.1,
+      "memory": "1.1GB",
+      "type": "system",
+      "command": "/usr/bin/postgres",
+      "user": "alice"
+    },
+    {
+      "id": 81,
+      "name": "safari",
+      "pid": 2081,
+      "cpu": 14.1,
+      "memory": "774MB",
+      "type": "user",
+      "command": "/Applications/Safari.app/Contents/MacOS/Safari",
+      "user": "root"
+    },
+    {
+      "id": 82,
+      "name": "vscode",
+      "pid": 2082,
+      "cpu": 7.8,
+      "memory": "362MB",
+      "type": "service",
+      "command": "/usr/bin/vscode",
+      "user": "redis"
+    },
+    {
+      "id": 83,
+      "name": "xcode",
+      "pid": 2083,
+      "cpu": 9.3,
+      "memory": "1.2GB",
+      "type": "user",
+      "command": "/Applications/Xcode.app/Contents/MacOS/Xcode",
+      "user": "bob"
+    },
+    {
+      "id": 84,
+      "name": "firefox",
+      "pid": 2084,
+      "cpu": 6.4,
+      "memory": "959MB",
+      "type": "user",
+      "command": "/Applications/Firefox.app/Contents/MacOS/Firefox",
+      "user": "bob"
+    },
+    {
+      "id": 85,
+      "name": "intellij",
+      "pid": 2085,
+      "cpu": 1.7,
+      "memory": "727MB",
+      "type": "service",
+      "command": "/usr/bin/intellij",
+      "user": "root"
+    },
+    {
+      "id": 86,
+      "name": "spotify",
+      "pid": 2086,
+      "cpu": 8.1,
+      "memory": "1.5GB",
+      "type": "service",
+      "command": "/usr/bin/spotify",
+      "user": "postgres"
+    },
+    {
+      "id": 87,
+      "name": "mysql",
+      "pid": 2087,
+      "cpu": 14.4,
+      "memory": "1.1GB",
+      "type": "user",
+      "command": "/Applications/Mysql.app/Contents/MacOS/Mysql",
+      "user": "mongodb"
+    },
+    {
+      "id": 88,
+      "name": "redis",
+      "pid": 2088,
+      "cpu": 10.5,
+      "memory": "707MB",
+      "type": "user",
+      "command": "/Applications/Redis.app/Contents/MacOS/Redis",
+      "user": "bob"
+    },
+    {
+      "id": 89,
+      "name": "spotify",
+      "pid": 2089,
+      "cpu": 3.8,
+      "memory": "133MB",
+      "type": "system",
+      "command": "/usr/bin/spotify",
+      "user": "alice"
+    },
+    {
+      "id": 90,
+      "name": "dropbox",
+      "pid": 2090,
+      "cpu": 6.1,
+      "memory": "664MB",
+      "type": "service",
+      "command": "/usr/bin/dropbox",
+      "user": "root"
+    },
+    {
+      "id": 91,
+      "name": "python",
+      "pid": 2091,
+      "cpu": 2.4,
+      "memory": "1.3GB",
+      "type": "system",
+      "command": "/usr/bin/python",
+      "user": "mysql"
+    },
+    {
+      "id": 92,
+      "name": "teams",
+      "pid": 2092,
+      "cpu": 5.0,
+      "memory": "360MB",
+      "type": "system",
+      "command": "/usr/bin/teams",
+      "user": "www-data"
+    },
+    {
+      "id": 93,
+      "name": "docker",
+      "pid": 2093,
+      "cpu": 10.9,
+      "memory": "662MB",
+      "type": "system",
+      "command": "/usr/bin/docker",
+      "user": "bob"
+    },
+    {
+      "id": 94,
+      "name": "chrome",
+      "pid": 2094,
+      "cpu": 10.3,
+      "memory": "617MB",
+      "type": "system",
+      "command": "/usr/bin/chrome",
+      "user": "redis"
+    },
+    {
+      "id": 95,
+      "name": "spotify",
+      "pid": 2095,
+      "cpu": 3.7,
+      "memory": "608MB",
+      "type": "system",
+      "command": "/usr/bin/spotify",
+      "user": "postgres"
+    },
+    {
+      "id": 96,
+      "name": "java",
+      "pid": 2096,
+      "cpu": 4.0,
+      "memory": "468MB",
+      "type": "user",
+      "command": "/Applications/Java.app/Contents/MacOS/Java",
+      "user": "mongodb"
+    },
+    {
+      "id": 97,
+      "name": "redis",
+      "pid": 2097,
+      "cpu": 7.0,
+      "memory": "1.9GB",
+      "type": "user",
+      "command": "/Applications/Redis.app/Contents/MacOS/Redis",
+      "user": "www-data"
+    },
+    {
+      "id": 98,
+      "name": "spotify",
+      "pid": 2098,
+      "cpu": 14.7,
+      "memory": "963MB",
+      "type": "system",
+      "command": "/usr/bin/spotify",
+      "user": "alice"
+    },
+    {
+      "id": 99,
+      "name": "spotify",
+      "pid": 2099,
+      "cpu": 5.6,
+      "memory": "416MB",
+      "type": "user",
+      "command": "/Applications/Spotify.app/Contents/MacOS/Spotify",
+      "user": "mysql"
+    },
+    {
+      "id": 100,
+      "name": "firefox",
+      "pid": 2100,
+      "cpu": 14.5,
+      "memory": "1.7GB",
+      "type": "user",
+      "command": "/Applications/Firefox.app/Contents/MacOS/Firefox",
+      "user": "redis"
+    },
+    {
+      "id": 101,
+      "name": "docker",
+      "pid": 2101,
+      "cpu": 10.9,
+      "memory": "759MB",
+      "type": "user",
+      "command": "/Applications/Docker.app/Contents/MacOS/Docker",
+      "user": "bob"
+    },
+    {
+      "id": 102,
+      "name": "code",
+      "pid": 2102,
+      "cpu": 3.2,
+      "memory": "454MB",
+      "type": "system",
+      "command": "/usr/bin/code",
+      "user": "www-data"
+    },
+    {
+      "id": 103,
+      "name": "code",
+      "pid": 2103,
+      "cpu": 4.4,
+      "memory": "1.3GB",
+      "type": "system",
+      "command": "/usr/bin/code",
+      "user": "bob"
+    },
+    {
+      "id": 104,
+      "name": "chrome",
+      "pid": 2104,
+      "cpu": 10.4,
+      "memory": "587MB",
+      "type": "user",
+      "command": "/Applications/Chrome.app/Contents/MacOS/Chrome",
+      "user": "mysql"
+    },
+    {
+      "id": 105,
+      "name": "intellij",
+      "pid": 2105,
+      "cpu": 1.1,
+      "memory": "1.6GB",
+      "type": "service",
+      "command": "/usr/bin/intellij",
+      "user": "mongodb"
+    },
+    {
+      "id": 106,
+      "name": "zoom",
+      "pid": 2106,
+      "cpu": 11.0,
+      "memory": "1.5GB",
+      "type": "system",
+      "command": "/usr/bin/zoom",
+      "user": "mysql"
+    },
+    {
+      "id": 107,
+      "name": "postgres",
+      "pid": 2107,
+      "cpu": 11.9,
+      "memory": "1.8GB",
+      "type": "service",
+      "command": "/usr/bin/postgres",
+      "user": "root"
+    },
+    {
+      "id": 108,
+      "name": "java",
+      "pid": 2108,
+      "cpu": 12.9,
+      "memory": "36MB",
+      "type": "service",
+      "command": "/usr/bin/java",
+      "user": "www-data"
+    },
+    {
+      "id": 109,
+      "name": "spotify",
+      "pid": 2109,
+      "cpu": 4.9,
+      "memory": "477MB",
+      "type": "service",
+      "command": "/usr/bin/spotify",
+      "user": "redis"
+    },
+    {
+      "id": 110,
+      "name": "spotify",
+      "pid": 2110,
+      "cpu": 13.4,
+      "memory": "35MB",
+      "type": "service",
+      "command": "/usr/bin/spotify",
+      "user": "root"
+    },
+    {
+      "id": 111,
+      "name": "terminal",
+      "pid": 2111,
+      "cpu": 12.9,
+      "memory": "64MB",
+      "type": "system",
+      "command": "/usr/bin/terminal",
+      "user": "bob"
+    },
+    {
+      "id": 112,
+      "name": "xcode",
+      "pid": 2112,
+      "cpu": 7.5,
+      "memory": "1.4GB",
+      "type": "system",
+      "command": "/usr/bin/xcode",
+      "user": "www-data"
+    },
+    {
+      "id": 113,
+      "name": "postgres",
+      "pid": 2113,
+      "cpu": 8.2,
+      "memory": "1.0GB",
+      "type": "service",
+      "command": "/usr/bin/postgres",
+      "user": "root"
+    },
+    {
+      "id": 114,
+      "name": "chrome",
+      "pid": 2114,
+      "cpu": 10.5,
+      "memory": "1.3GB",
+      "type": "system",
+      "command": "/usr/bin/chrome",
+      "user": "alice"
+    },
+    {
+      "id": 115,
+      "name": "xcode",
+      "pid": 2115,
+      "cpu": 14.1,
+      "memory": "1.5GB",
+      "type": "user",
+      "command": "/Applications/Xcode.app/Contents/MacOS/Xcode",
+      "user": "mysql"
+    },
+    {
+      "id": 116,
+      "name": "dropbox",
+      "pid": 2116,
+      "cpu": 10.6,
+      "memory": "1.7GB",
+      "type": "service",
+      "command": "/usr/bin/dropbox",
+      "user": "mysql"
+    },
+    {
+      "id": 117,
+      "name": "code",
+      "pid": 2117,
+      "cpu": 3.5,
+      "memory": "1.0GB",
+      "type": "system",
+      "command": "/usr/bin/code",
+      "user": "alice"
+    },
+    {
+      "id": 118,
+      "name": "postgres",
+      "pid": 2118,
+      "cpu": 13.6,
+      "memory": "1.4GB",
+      "type": "service",
+      "command": "/usr/bin/postgres",
+      "user": "root"
+    },
+    {
+      "id": 119,
+      "name": "firefox",
+      "pid": 2119,
+      "cpu": 1.4,
+      "memory": "893MB",
+      "type": "user",
+      "command": "/Applications/Firefox.app/Contents/MacOS/Firefox",
+      "user": "mongodb"
+    },
+    {
+      "id": 120,
+      "name": "firefox",
+      "pid": 2120,
+      "cpu": 8.6,
+      "memory": "738MB",
+      "type": "user",
+      "command": "/Applications/Firefox.app/Contents/MacOS/Firefox",
+      "user": "redis"
+    },
+    {
+      "id": 121,
+      "name": "java",
+      "pid": 2121,
+      "cpu": 12.0,
+      "memory": "896MB",
+      "type": "system",
+      "command": "/usr/bin/java",
+      "user": "root"
+    },
+    {
+      "id": 122,
+      "name": "code",
+      "pid": 2122,
+      "cpu": 3.7,
+      "memory": "660MB",
+      "type": "user",
+      "command": "/Applications/Code.app/Contents/MacOS/Code",
+      "user": "postgres"
+    },
+    {
+      "id": 123,
+      "name": "safari",
+      "pid": 2123,
+      "cpu": 1.9,
+      "memory": "851MB",
+      "type": "service",
+      "command": "/usr/bin/safari",
+      "user": "root"
+    },
+    {
+      "id": 124,
+      "name": "nginx",
+      "pid": 2124,
+      "cpu": 12.2,
+      "memory": "430MB",
+      "type": "system",
+      "command": "/usr/bin/nginx",
+      "user": "bob"
+    },
+    {
+      "id": 125,
+      "name": "zoom",
+      "pid": 2125,
+      "cpu": 14.6,
+      "memory": "1.0GB",
+      "type": "user",
+      "command": "/Applications/Zoom.app/Contents/MacOS/Zoom",
+      "user": "redis"
+    },
+    {
+      "id": 126,
+      "name": "java",
+      "pid": 2126,
+      "cpu": 6.5,
+      "memory": "1.3GB",
+      "type": "user",
+      "command": "/Applications/Java.app/Contents/MacOS/Java",
+      "user": "www-data"
+    },
+    {
+      "id": 127,
+      "name": "java",
+      "pid": 2127,
+      "cpu": 6.0,
+      "memory": "1.1GB",
+      "type": "user",
+      "command": "/Applications/Java.app/Contents/MacOS/Java",
+      "user": "root"
+    },
+    {
+      "id": 128,
+      "name": "mongodb",
+      "pid": 2128,
+      "cpu": 13.3,
+      "memory": "113MB",
+      "type": "system",
+      "command": "/usr/bin/mongodb",
+      "user": "mongodb"
+    },
+    {
+      "id": 129,
+      "name": "zoom",
+      "pid": 2129,
+      "cpu": 12.1,
+      "memory": "1.0GB",
+      "type": "system",
+      "command": "/usr/bin/zoom",
+      "user": "bob"
+    },
+    {
+      "id": 130,
+      "name": "redis",
+      "pid": 2130,
+      "cpu": 4.1,
+      "memory": "1.3GB",
+      "type": "user",
+      "command": "/Applications/Redis.app/Contents/MacOS/Redis",
+      "user": "postgres"
+    },
+    {
+      "id": 131,
+      "name": "intellij",
+      "pid": 2131,
+      "cpu": 11.3,
+      "memory": "763MB",
+      "type": "system",
+      "command": "/usr/bin/intellij",
+      "user": "alice"
+    },
+    {
+      "id": 132,
+      "name": "safari",
+      "pid": 2132,
+      "cpu": 12.6,
+      "memory": "1.8GB",
+      "type": "user",
+      "command": "/Applications/Safari.app/Contents/MacOS/Safari",
+      "user": "mongodb"
+    },
+    {
+      "id": 133,
+      "name": "docker",
+      "pid": 2133,
+      "cpu": 12.1,
+      "memory": "1.8GB",
+      "type": "system",
+      "command": "/usr/bin/docker",
+      "user": "postgres"
+    },
+    {
+      "id": 134,
+      "name": "node",
+      "pid": 2134,
+      "cpu": 14.8,
+      "memory": "255MB",
+      "type": "user",
+      "command": "/Applications/Node.app/Contents/MacOS/Node",
+      "user": "bob"
+    },
+    {
+      "id": 135,
+      "name": "postgres",
+      "pid": 2135,
+      "cpu": 13.1,
+      "memory": "1.4GB",
+      "type": "service",
+      "command": "/usr/bin/postgres",
+      "user": "mysql"
+    },
+    {
+      "id": 136,
+      "name": "python",
+      "pid": 2136,
+      "cpu": 2.9,
+      "memory": "218MB",
+      "type": "service",
+      "command": "/usr/bin/python",
+      "user": "postgres"
+    },
+    {
+      "id": 137,
+      "name": "postgres",
+      "pid": 2137,
+      "cpu": 9.8,
+      "memory": "1.5GB",
+      "type": "system",
+      "command": "/usr/bin/postgres",
+      "user": "mysql"
+    },
+    {
+      "id": 138,
+      "name": "spotify",
+      "pid": 2138,
+      "cpu": 0.7,
+      "memory": "1.4GB",
+      "type": "service",
+      "command": "/usr/bin/spotify",
+      "user": "alice"
+    },
+    {
+      "id": 139,
+      "name": "terminal",
+      "pid": 2139,
+      "cpu": 11.8,
+      "memory": "771MB",
+      "type": "service",
+      "command": "/usr/bin/terminal",
+      "user": "alice"
+    },
+    {
+      "id": 140,
+      "name": "intellij",
+      "pid": 2140,
+      "cpu": 1.1,
+      "memory": "1.9GB",
+      "type": "service",
+      "command": "/usr/bin/intellij",
+      "user": "bob"
+    },
+    {
+      "id": 141,
+      "name": "nginx",
+      "pid": 2141,
+      "cpu": 10.8,
+      "memory": "1.7GB",
+      "type": "service",
+      "command": "/usr/bin/nginx",
+      "user": "root"
+    },
+    {
+      "id": 142,
+      "name": "xcode",
+      "pid": 2142,
+      "cpu": 3.5,
+      "memory": "697MB",
+      "type": "user",
+      "command": "/Applications/Xcode.app/Contents/MacOS/Xcode",
+      "user": "root"
+    },
+    {
+      "id": 143,
+      "name": "terminal",
+      "pid": 2143,
+      "cpu": 9.5,
+      "memory": "1.0GB",
+      "type": "user",
+      "command": "/Applications/Terminal.app/Contents/MacOS/Terminal",
+      "user": "redis"
+    },
+    {
+      "id": 144,
+      "name": "code",
+      "pid": 2144,
+      "cpu": 14.3,
+      "memory": "1.4GB",
+      "type": "system",
+      "command": "/usr/bin/code",
+      "user": "www-data"
+    },
+    {
+      "id": 145,
+      "name": "teams",
+      "pid": 2145,
+      "cpu": 0.5,
+      "memory": "117MB",
+      "type": "user",
+      "command": "/Applications/Teams.app/Contents/MacOS/Teams",
+      "user": "mongodb"
+    },
+    {
+      "id": 146,
+      "name": "redis",
+      "pid": 2146,
+      "cpu": 5.8,
+      "memory": "1.6GB",
+      "type": "service",
+      "command": "/usr/bin/redis",
+      "user": "bob"
+    },
+    {
+      "id": 147,
+      "name": "spotify",
+      "pid": 2147,
+      "cpu": 7.7,
+      "memory": "867MB",
+      "type": "service",
+      "command": "/usr/bin/spotify",
+      "user": "mysql"
+    },
+    {
+      "id": 148,
+      "name": "postgres",
+      "pid": 2148,
+      "cpu": 13.3,
+      "memory": "1.6GB",
+      "type": "user",
+      "command": "/Applications/Postgres.app/Contents/MacOS/Postgres",
+      "user": "redis"
+    },
+    {
+      "id": 149,
+      "name": "node",
+      "pid": 2149,
+      "cpu": 9.9,
+      "memory": "947MB",
+      "type": "service",
+      "command": "/usr/bin/node",
+      "user": "redis"
+    },
+    {
+      "id": 150,
+      "name": "vscode",
+      "pid": 2150,
+      "cpu": 6.0,
+      "memory": "182MB",
+      "type": "system",
+      "command": "/usr/bin/vscode",
+      "user": "redis"
+    },
+    {
+      "id": 151,
+      "name": "chrome",
+      "pid": 2151,
+      "cpu": 1.7,
+      "memory": "222MB",
+      "type": "system",
+      "command": "/usr/bin/chrome",
+      "user": "mysql"
+    },
+    {
+      "id": 152,
+      "name": "mongodb",
+      "pid": 2152,
+      "cpu": 8.1,
+      "memory": "385MB",
+      "type": "system",
+      "command": "/usr/bin/mongodb",
+      "user": "bob"
+    },
+    {
+      "id": 153,
+      "name": "zoom",
+      "pid": 2153,
+      "cpu": 1.8,
+      "memory": "1.1GB",
+      "type": "service",
+      "command": "/usr/bin/zoom",
+      "user": "bob"
+    },
+    {
+      "id": 154,
+      "name": "docker",
+      "pid": 2154,
+      "cpu": 5.4,
+      "memory": "1.5GB",
+      "type": "system",
+      "command": "/usr/bin/docker",
+      "user": "redis"
+    },
+    {
+      "id": 155,
+      "name": "terminal",
+      "pid": 2155,
+      "cpu": 13.2,
+      "memory": "1.7GB",
+      "type": "service",
+      "command": "/usr/bin/terminal",
+      "user": "postgres"
+    },
+    {
+      "id": 156,
+      "name": "docker",
+      "pid": 2156,
+      "cpu": 13.3,
+      "memory": "1.8GB",
+      "type": "service",
+      "command": "/usr/bin/docker",
+      "user": "www-data"
+    },
+    {
+      "id": 157,
+      "name": "xcode",
+      "pid": 2157,
+      "cpu": 7.2,
+      "memory": "377MB",
+      "type": "user",
+      "command": "/Applications/Xcode.app/Contents/MacOS/Xcode",
+      "user": "root"
+    },
+    {
+      "id": 158,
+      "name": "firefox",
+      "pid": 2158,
+      "cpu": 7.2,
+      "memory": "498MB",
+      "type": "user",
+      "command": "/Applications/Firefox.app/Contents/MacOS/Firefox",
+      "user": "mongodb"
+    },
+    {
+      "id": 159,
+      "name": "terminal",
+      "pid": 2159,
+      "cpu": 13.8,
+      "memory": "1.7GB",
+      "type": "user",
+      "command": "/Applications/Terminal.app/Contents/MacOS/Terminal",
+      "user": "bob"
+    },
+    {
+      "id": 160,
+      "name": "mongodb",
+      "pid": 2160,
+      "cpu": 9.3,
+      "memory": "1.7GB",
+      "type": "user",
+      "command": "/Applications/Mongodb.app/Contents/MacOS/Mongodb",
+      "user": "mongodb"
+    },
+    {
+      "id": 161,
+      "name": "vscode",
+      "pid": 2161,
+      "cpu": 2.7,
+      "memory": "1.8GB",
+      "type": "service",
+      "command": "/usr/bin/vscode",
+      "user": "root"
+    },
+    {
+      "id": 162,
+      "name": "safari",
+      "pid": 2162,
+      "cpu": 3.8,
+      "memory": "573MB",
+      "type": "user",
+      "command": "/Applications/Safari.app/Contents/MacOS/Safari",
+      "user": "redis"
+    },
+    {
+      "id": 163,
+      "name": "python",
+      "pid": 2163,
+      "cpu": 8.8,
+      "memory": "332MB",
+      "type": "user",
+      "command": "/Applications/Python.app/Contents/MacOS/Python",
+      "user": "www-data"
+    },
+    {
+      "id": 164,
+      "name": "vscode",
+      "pid": 2164,
+      "cpu": 3.2,
+      "memory": "1.7GB",
+      "type": "system",
+      "command": "/usr/bin/vscode",
+      "user": "redis"
+    },
+    {
+      "id": 165,
+      "name": "zoom",
+      "pid": 2165,
+      "cpu": 6.1,
+      "memory": "31MB",
+      "type": "user",
+      "command": "/Applications/Zoom.app/Contents/MacOS/Zoom",
+      "user": "mongodb"
+    },
+    {
+      "id": 166,
+      "name": "mysql",
+      "pid": 2166,
+      "cpu": 14.2,
+      "memory": "456MB",
+      "type": "user",
+      "command": "/Applications/Mysql.app/Contents/MacOS/Mysql",
+      "user": "mysql"
+    },
+    {
+      "id": 167,
+      "name": "nginx",
+      "pid": 2167,
+      "cpu": 3.4,
+      "memory": "1.9GB",
+      "type": "user",
+      "command": "/Applications/Nginx.app/Contents/MacOS/Nginx",
+      "user": "postgres"
+    },
+    {
+      "id": 168,
+      "name": "firefox",
+      "pid": 2168,
+      "cpu": 3.6,
+      "memory": "1.6GB",
+      "type": "system",
+      "command": "/usr/bin/firefox",
+      "user": "bob"
+    },
+    {
+      "id": 169,
+      "name": "java",
+      "pid": 2169,
+      "cpu": 7.9,
+      "memory": "1.2GB",
+      "type": "system",
+      "command": "/usr/bin/java",
+      "user": "alice"
+    },
+    {
+      "id": 170,
+      "name": "mysql",
+      "pid": 2170,
+      "cpu": 9.2,
+      "memory": "1.5GB",
+      "type": "system",
+      "command": "/usr/bin/mysql",
+      "user": "bob"
+    },
+    {
+      "id": 171,
+      "name": "teams",
+      "pid": 2171,
+      "cpu": 11.7,
+      "memory": "1.3GB",
+      "type": "service",
+      "command": "/usr/bin/teams",
+      "user": "redis"
+    },
+    {
+      "id": 172,
+      "name": "nginx",
+      "pid": 2172,
+      "cpu": 13.9,
+      "memory": "1.9GB",
+      "type": "user",
+      "command": "/Applications/Nginx.app/Contents/MacOS/Nginx",
+      "user": "mysql"
+    },
+    {
+      "id": 173,
+      "name": "slack",
+      "pid": 2173,
+      "cpu": 9.0,
+      "memory": "1.4GB",
+      "type": "system",
+      "command": "/usr/bin/slack",
+      "user": "mysql"
+    },
+    {
+      "id": 174,
+      "name": "terminal",
+      "pid": 2174,
+      "cpu": 4.4,
+      "memory": "949MB",
+      "type": "system",
+      "command": "/usr/bin/terminal",
+      "user": "mongodb"
+    },
+    {
+      "id": 175,
+      "name": "dropbox",
+      "pid": 2175,
+      "cpu": 11.6,
+      "memory": "1.8GB",
+      "type": "user",
+      "command": "/Applications/Dropbox.app/Contents/MacOS/Dropbox",
+      "user": "www-data"
+    },
+    {
+      "id": 176,
+      "name": "java",
+      "pid": 2176,
+      "cpu": 7.3,
+      "memory": "1.8GB",
+      "type": "user",
+      "command": "/Applications/Java.app/Contents/MacOS/Java",
+      "user": "mongodb"
+    },
+    {
+      "id": 177,
+      "name": "node",
+      "pid": 2177,
+      "cpu": 2.5,
+      "memory": "1.3GB",
+      "type": "service",
+      "command": "/usr/bin/node",
+      "user": "mongodb"
+    },
+    {
+      "id": 178,
+      "name": "dropbox",
+      "pid": 2178,
+      "cpu": 9.4,
+      "memory": "459MB",
+      "type": "user",
+      "command": "/Applications/Dropbox.app/Contents/MacOS/Dropbox",
+      "user": "www-data"
+    },
+    {
+      "id": 179,
+      "name": "vscode",
+      "pid": 2179,
+      "cpu": 5.8,
+      "memory": "947MB",
+      "type": "system",
+      "command": "/usr/bin/vscode",
+      "user": "root"
+    },
+    {
+      "id": 180,
+      "name": "java",
+      "pid": 2180,
+      "cpu": 10.5,
+      "memory": "1.2GB",
+      "type": "user",
+      "command": "/Applications/Java.app/Contents/MacOS/Java",
+      "user": "redis"
+    },
+    {
+      "id": 181,
+      "name": "intellij",
+      "pid": 2181,
+      "cpu": 14.5,
+      "memory": "1.3GB",
+      "type": "system",
+      "command": "/usr/bin/intellij",
+      "user": "postgres"
+    },
+    {
+      "id": 182,
+      "name": "terminal",
+      "pid": 2182,
+      "cpu": 13.6,
+      "memory": "1.8GB",
+      "type": "service",
+      "command": "/usr/bin/terminal",
+      "user": "root"
+    },
+    {
+      "id": 183,
+      "name": "zoom",
+      "pid": 2183,
+      "cpu": 4.9,
+      "memory": "1.8GB",
+      "type": "service",
+      "command": "/usr/bin/zoom",
+      "user": "root"
+    },
+    {
+      "id": 184,
+      "name": "java",
+      "pid": 2184,
+      "cpu": 7.7,
+      "memory": "1.2GB",
+      "type": "service",
+      "command": "/usr/bin/java",
+      "user": "alice"
+    },
+    {
+      "id": 185,
+      "name": "dropbox",
+      "pid": 2185,
+      "cpu": 12.9,
+      "memory": "191MB",
+      "type": "system",
+      "command": "/usr/bin/dropbox",
+      "user": "bob"
+    },
+    {
+      "id": 186,
+      "name": "docker",
+      "pid": 2186,
+      "cpu": 12.2,
+      "memory": "538MB",
+      "type": "system",
+      "command": "/usr/bin/docker",
+      "user": "mongodb"
+    },
+    {
+      "id": 187,
+      "name": "slack",
+      "pid": 2187,
+      "cpu": 2.4,
+      "memory": "16MB",
+      "type": "user",
+      "command": "/Applications/Slack.app/Contents/MacOS/Slack",
+      "user": "mongodb"
+    },
+    {
+      "id": 188,
+      "name": "dropbox",
+      "pid": 2188,
+      "cpu": 3.1,
+      "memory": "782MB",
+      "type": "user",
+      "command": "/Applications/Dropbox.app/Contents/MacOS/Dropbox",
+      "user": "redis"
+    },
+    {
+      "id": 189,
+      "name": "docker",
+      "pid": 2189,
+      "cpu": 4.7,
+      "memory": "252MB",
+      "type": "system",
+      "command": "/usr/bin/docker",
+      "user": "mysql"
+    },
+    {
+      "id": 190,
+      "name": "mysql",
+      "pid": 2190,
+      "cpu": 3.8,
+      "memory": "1.9GB",
+      "type": "system",
+      "command": "/usr/bin/mysql",
+      "user": "root"
+    },
+    {
+      "id": 191,
+      "name": "postgres",
+      "pid": 2191,
+      "cpu": 8.0,
+      "memory": "134MB",
+      "type": "service",
+      "command": "/usr/bin/postgres",
+      "user": "postgres"
+    },
+    {
+      "id": 192,
+      "name": "redis",
+      "pid": 2192,
+      "cpu": 7.6,
+      "memory": "1.2GB",
+      "type": "user",
+      "command": "/Applications/Redis.app/Contents/MacOS/Redis",
+      "user": "www-data"
+    },
+    {
+      "id": 193,
+      "name": "firefox",
+      "pid": 2193,
+      "cpu": 6.1,
+      "memory": "911MB",
+      "type": "system",
+      "command": "/usr/bin/firefox",
+      "user": "www-data"
+    },
+    {
+      "id": 194,
+      "name": "slack",
+      "pid": 2194,
+      "cpu": 4.5,
+      "memory": "643MB",
+      "type": "service",
+      "command": "/usr/bin/slack",
+      "user": "www-data"
+    },
+    {
+      "id": 195,
+      "name": "slack",
+      "pid": 2195,
+      "cpu": 4.3,
+      "memory": "547MB",
+      "type": "service",
+      "command": "/usr/bin/slack",
+      "user": "postgres"
+    },
+    {
+      "id": 196,
+      "name": "firefox",
+      "pid": 2196,
+      "cpu": 2.4,
+      "memory": "337MB",
+      "type": "system",
+      "command": "/usr/bin/firefox",
+      "user": "alice"
+    },
+    {
+      "id": 197,
+      "name": "teams",
+      "pid": 2197,
+      "cpu": 6.7,
+      "memory": "1.1GB",
+      "type": "service",
+      "command": "/usr/bin/teams",
+      "user": "mongodb"
+    },
+    {
+      "id": 198,
+      "name": "slack",
+      "pid": 2198,
+      "cpu": 4.4,
+      "memory": "1.9GB",
+      "type": "service",
+      "command": "/usr/bin/slack",
+      "user": "mysql"
+    },
+    {
+      "id": 199,
+      "name": "dropbox",
+      "pid": 2199,
+      "cpu": 0.4,
+      "memory": "1.2GB",
+      "type": "system",
+      "command": "/usr/bin/dropbox",
+      "user": "bob"
+    },
+    {
+      "id": 200,
+      "name": "nginx",
+      "pid": 2200,
+      "cpu": 6.1,
+      "memory": "632MB",
+      "type": "service",
+      "command": "/usr/bin/nginx",
+      "user": "root"
+    },
+    {
+      "id": 201,
+      "name": "intellij",
+      "pid": 2201,
+      "cpu": 14.7,
+      "memory": "1.8GB",
+      "type": "service",
+      "command": "/usr/bin/intellij",
+      "user": "bob"
+    },
+    {
+      "id": 202,
+      "name": "nginx",
+      "pid": 2202,
+      "cpu": 12.5,
+      "memory": "1.1GB",
+      "type": "service",
+      "command": "/usr/bin/nginx",
+      "user": "postgres"
+    },
+    {
+      "id": 203,
+      "name": "docker",
+      "pid": 2203,
+      "cpu": 10.8,
+      "memory": "523MB",
+      "type": "user",
+      "command": "/Applications/Docker.app/Contents/MacOS/Docker",
+      "user": "bob"
+    },
+    {
+      "id": 204,
+      "name": "intellij",
+      "pid": 2204,
+      "cpu": 7.6,
+      "memory": "50MB",
+      "type": "system",
+      "command": "/usr/bin/intellij",
+      "user": "postgres"
+    },
+    {
+      "id": 205,
+      "name": "teams",
+      "pid": 2205,
+      "cpu": 2.6,
+      "memory": "872MB",
+      "type": "system",
+      "command": "/usr/bin/teams",
+      "user": "mysql"
+    },
+    {
+      "id": 206,
+      "name": "intellij",
+      "pid": 2206,
+      "cpu": 0.2,
+      "memory": "686MB",
+      "type": "system",
+      "command": "/usr/bin/intellij",
+      "user": "mysql"
+    },
+    {
+      "id": 207,
+      "name": "terminal",
+      "pid": 2207,
+      "cpu": 7.6,
+      "memory": "617MB",
+      "type": "user",
+      "command": "/Applications/Terminal.app/Contents/MacOS/Terminal",
+      "user": "bob"
+    },
+    {
+      "id": 208,
+      "name": "spotify",
+      "pid": 2208,
+      "cpu": 11.1,
+      "memory": "249MB",
+      "type": "service",
+      "command": "/usr/bin/spotify",
+      "user": "redis"
+    },
+    {
+      "id": 209,
+      "name": "slack",
+      "pid": 2209,
+      "cpu": 4.6,
+      "memory": "263MB",
+      "type": "service",
+      "command": "/usr/bin/slack",
+      "user": "mysql"
+    },
+    {
+      "id": 210,
+      "name": "xcode",
+      "pid": 2210,
+      "cpu": 7.2,
+      "memory": "1.8GB",
+      "type": "system",
+      "command": "/usr/bin/xcode",
+      "user": "postgres"
+    },
+    {
+      "id": 211,
+      "name": "node",
+      "pid": 2211,
+      "cpu": 3.3,
+      "memory": "1.9GB",
+      "type": "service",
+      "command": "/usr/bin/node",
+      "user": "www-data"
+    },
+    {
+      "id": 212,
+      "name": "intellij",
+      "pid": 2212,
+      "cpu": 0.7,
+      "memory": "1.2GB",
+      "type": "user",
+      "command": "/Applications/Intellij.app/Contents/MacOS/Intellij",
+      "user": "mongodb"
+    },
+    {
+      "id": 213,
+      "name": "chrome",
+      "pid": 2213,
+      "cpu": 8.9,
+      "memory": "333MB",
+      "type": "system",
+      "command": "/usr/bin/chrome",
+      "user": "postgres"
+    },
+    {
+      "id": 214,
+      "name": "firefox",
+      "pid": 2214,
+      "cpu": 13.6,
+      "memory": "916MB",
+      "type": "system",
+      "command": "/usr/bin/firefox",
+      "user": "mysql"
+    },
+    {
+      "id": 215,
+      "name": "zoom",
+      "pid": 2215,
+      "cpu": 8.9,
+      "memory": "164MB",
+      "type": "user",
+      "command": "/Applications/Zoom.app/Contents/MacOS/Zoom",
+      "user": "alice"
+    },
+    {
+      "id": 216,
+      "name": "python",
+      "pid": 2216,
+      "cpu": 3.4,
+      "memory": "637MB",
+      "type": "user",
+      "command": "/Applications/Python.app/Contents/MacOS/Python",
+      "user": "mongodb"
+    },
+    {
+      "id": 217,
+      "name": "spotify",
+      "pid": 2217,
+      "cpu": 5.8,
+      "memory": "839MB",
+      "type": "service",
+      "command": "/usr/bin/spotify",
+      "user": "alice"
+    },
+    {
+      "id": 218,
+      "name": "firefox",
+      "pid": 2218,
+      "cpu": 4.2,
+      "memory": "1017MB",
+      "type": "user",
+      "command": "/Applications/Firefox.app/Contents/MacOS/Firefox",
+      "user": "postgres"
+    },
+    {
+      "id": 219,
+      "name": "docker",
+      "pid": 2219,
+      "cpu": 7.9,
+      "memory": "656MB",
+      "type": "user",
+      "command": "/Applications/Docker.app/Contents/MacOS/Docker",
+      "user": "mongodb"
+    },
+    {
+      "id": 220,
+      "name": "java",
+      "pid": 2220,
+      "cpu": 7.1,
+      "memory": "1.4GB",
+      "type": "system",
+      "command": "/usr/bin/java",
+      "user": "root"
+    },
+    {
+      "id": 221,
+      "name": "terminal",
+      "pid": 2221,
+      "cpu": 14.0,
+      "memory": "1.3GB",
+      "type": "system",
+      "command": "/usr/bin/terminal",
+      "user": "mysql"
+    },
+    {
+      "id": 222,
+      "name": "redis",
+      "pid": 2222,
+      "cpu": 6.0,
+      "memory": "953MB",
+      "type": "system",
+      "command": "/usr/bin/redis",
+      "user": "root"
+    },
+    {
+      "id": 223,
+      "name": "vscode",
+      "pid": 2223,
+      "cpu": 5.8,
+      "memory": "1.7GB",
+      "type": "user",
+      "command": "/Applications/Vscode.app/Contents/MacOS/Vscode",
+      "user": "mongodb"
+    },
+    {
+      "id": 224,
+      "name": "zoom",
+      "pid": 2224,
+      "cpu": 13.7,
+      "memory": "1.6GB",
+      "type": "user",
+      "command": "/Applications/Zoom.app/Contents/MacOS/Zoom",
+      "user": "www-data"
+    },
+    {
+      "id": 225,
+      "name": "vscode",
+      "pid": 2225,
+      "cpu": 0.5,
+      "memory": "540MB",
+      "type": "system",
+      "command": "/usr/bin/vscode",
+      "user": "redis"
+    },
+    {
+      "id": 226,
+      "name": "java",
+      "pid": 2226,
+      "cpu": 8.7,
+      "memory": "1.7GB",
+      "type": "service",
+      "command": "/usr/bin/java",
+      "user": "root"
+    },
+    {
+      "id": 227,
+      "name": "code",
+      "pid": 2227,
+      "cpu": 11.3,
+      "memory": "1.2GB",
+      "type": "system",
+      "command": "/usr/bin/code",
+      "user": "root"
+    },
+    {
+      "id": 228,
+      "name": "intellij",
+      "pid": 2228,
+      "cpu": 7.6,
+      "memory": "1.1GB",
+      "type": "system",
+      "command": "/usr/bin/intellij",
+      "user": "root"
+    },
+    {
+      "id": 229,
+      "name": "xcode",
+      "pid": 2229,
+      "cpu": 4.0,
+      "memory": "965MB",
+      "type": "service",
+      "command": "/usr/bin/xcode",
+      "user": "root"
+    },
+    {
+      "id": 230,
+      "name": "safari",
+      "pid": 2230,
+      "cpu": 9.5,
+      "memory": "1.9GB",
+      "type": "system",
+      "command": "/usr/bin/safari",
+      "user": "root"
+    },
+    {
+      "id": 231,
+      "name": "spotify",
+      "pid": 2231,
+      "cpu": 2.3,
+      "memory": "1.1GB",
+      "type": "service",
+      "command": "/usr/bin/spotify",
+      "user": "mongodb"
+    },
+    {
+      "id": 232,
+      "name": "docker",
+      "pid": 2232,
+      "cpu": 5.3,
+      "memory": "720MB",
+      "type": "service",
+      "command": "/usr/bin/docker",
+      "user": "root"
+    },
+    {
+      "id": 233,
+      "name": "xcode",
+      "pid": 2233,
+      "cpu": 10.7,
+      "memory": "1.3GB",
+      "type": "service",
+      "command": "/usr/bin/xcode",
+      "user": "root"
+    },
+    {
+      "id": 234,
+      "name": "intellij",
+      "pid": 2234,
+      "cpu": 6.9,
+      "memory": "585MB",
+      "type": "user",
+      "command": "/Applications/Intellij.app/Contents/MacOS/Intellij",
+      "user": "postgres"
+    },
+    {
+      "id": 235,
+      "name": "postgres",
+      "pid": 2235,
+      "cpu": 11.5,
+      "memory": "600MB",
+      "type": "system",
+      "command": "/usr/bin/postgres",
+      "user": "mysql"
+    },
+    {
+      "id": 236,
+      "name": "xcode",
+      "pid": 2236,
+      "cpu": 5.2,
+      "memory": "1.6GB",
+      "type": "service",
+      "command": "/usr/bin/xcode",
+      "user": "postgres"
+    },
+    {
+      "id": 237,
+      "name": "python",
+      "pid": 2237,
+      "cpu": 0.6,
+      "memory": "1.8GB",
+      "type": "service",
+      "command": "/usr/bin/python",
+      "user": "postgres"
+    },
+    {
+      "id": 238,
+      "name": "spotify",
+      "pid": 2238,
+      "cpu": 7.1,
+      "memory": "1.4GB",
+      "type": "system",
+      "command": "/usr/bin/spotify",
+      "user": "redis"
+    },
+    {
+      "id": 239,
+      "name": "java",
+      "pid": 2239,
+      "cpu": 10.6,
+      "memory": "643MB",
+      "type": "system",
+      "command": "/usr/bin/java",
+      "user": "mysql"
+    },
+    {
+      "id": 240,
+      "name": "node",
+      "pid": 2240,
+      "cpu": 1.3,
+      "memory": "532MB",
+      "type": "system",
+      "command": "/usr/bin/node",
+      "user": "postgres"
+    },
+    {
+      "id": 241,
+      "name": "java",
+      "pid": 2241,
+      "cpu": 11.1,
+      "memory": "1.4GB",
+      "type": "user",
+      "command": "/Applications/Java.app/Contents/MacOS/Java",
+      "user": "mysql"
+    },
+    {
+      "id": 242,
+      "name": "code",
+      "pid": 2242,
+      "cpu": 13.4,
+      "memory": "388MB",
+      "type": "system",
+      "command": "/usr/bin/code",
+      "user": "alice"
+    },
+    {
+      "id": 243,
+      "name": "node",
+      "pid": 2243,
+      "cpu": 11.4,
+      "memory": "1.8GB",
+      "type": "system",
+      "command": "/usr/bin/node",
+      "user": "mysql"
+    },
+    {
+      "id": 244,
+      "name": "firefox",
+      "pid": 2244,
+      "cpu": 4.3,
+      "memory": "392MB",
+      "type": "user",
+      "command": "/Applications/Firefox.app/Contents/MacOS/Firefox",
+      "user": "mysql"
+    },
+    {
+      "id": 245,
+      "name": "redis",
+      "pid": 2245,
+      "cpu": 14.0,
+      "memory": "1.5GB",
+      "type": "system",
+      "command": "/usr/bin/redis",
+      "user": "mysql"
+    },
+    {
+      "id": 246,
+      "name": "node",
+      "pid": 2246,
+      "cpu": 9.5,
+      "memory": "614MB",
+      "type": "user",
+      "command": "/Applications/Node.app/Contents/MacOS/Node",
+      "user": "redis"
+    },
+    {
+      "id": 247,
+      "name": "vscode",
+      "pid": 2247,
+      "cpu": 5.8,
+      "memory": "1.7GB",
+      "type": "system",
+      "command": "/usr/bin/vscode",
+      "user": "bob"
+    },
+    {
+      "id": 248,
+      "name": "python",
+      "pid": 2248,
+      "cpu": 1.1,
+      "memory": "609MB",
+      "type": "system",
+      "command": "/usr/bin/python",
+      "user": "redis"
+    },
+    {
+      "id": 249,
+      "name": "mongodb",
+      "pid": 2249,
+      "cpu": 11.9,
+      "memory": "1.9GB",
+      "type": "system",
+      "command": "/usr/bin/mongodb",
+      "user": "bob"
+    },
+    {
+      "id": 250,
+      "name": "terminal",
+      "pid": 2250,
+      "cpu": 3.3,
+      "memory": "440MB",
+      "type": "system",
+      "command": "/usr/bin/terminal",
+      "user": "www-data"
+    },
+    {
+      "id": 251,
+      "name": "intellij",
+      "pid": 2251,
+      "cpu": 6.0,
+      "memory": "1.1GB",
+      "type": "user",
+      "command": "/Applications/Intellij.app/Contents/MacOS/Intellij",
+      "user": "redis"
+    },
+    {
+      "id": 252,
+      "name": "vscode",
+      "pid": 2252,
+      "cpu": 13.3,
+      "memory": "831MB",
+      "type": "user",
+      "command": "/Applications/Vscode.app/Contents/MacOS/Vscode",
+      "user": "mysql"
+    },
+    {
+      "id": 253,
+      "name": "python",
+      "pid": 2253,
+      "cpu": 10.5,
+      "memory": "1.8GB",
+      "type": "user",
+      "command": "/Applications/Python.app/Contents/MacOS/Python",
+      "user": "mongodb"
+    },
+    {
+      "id": 254,
+      "name": "code",
+      "pid": 2254,
+      "cpu": 2.3,
+      "memory": "1.8GB",
+      "type": "system",
+      "command": "/usr/bin/code",
+      "user": "mysql"
+    },
+    {
+      "id": 255,
+      "name": "xcode",
+      "pid": 2255,
+      "cpu": 1.5,
+      "memory": "1.7GB",
+      "type": "system",
+      "command": "/usr/bin/xcode",
+      "user": "postgres"
+    },
+    {
+      "id": 256,
+      "name": "teams",
+      "pid": 2256,
+      "cpu": 0.6,
+      "memory": "1.1GB",
+      "type": "service",
+      "command": "/usr/bin/teams",
+      "user": "redis"
+    },
+    {
+      "id": 257,
+      "name": "mysql",
+      "pid": 2257,
+      "cpu": 9.6,
+      "memory": "772MB",
+      "type": "user",
+      "command": "/Applications/Mysql.app/Contents/MacOS/Mysql",
+      "user": "mongodb"
+    },
+    {
+      "id": 258,
+      "name": "chrome",
+      "pid": 2258,
+      "cpu": 2.0,
+      "memory": "1.4GB",
+      "type": "service",
+      "command": "/usr/bin/chrome",
+      "user": "mongodb"
+    },
+    {
+      "id": 259,
+      "name": "xcode",
+      "pid": 2259,
+      "cpu": 9.5,
+      "memory": "1.5GB",
+      "type": "service",
+      "command": "/usr/bin/xcode",
+      "user": "bob"
+    },
+    {
+      "id": 260,
+      "name": "code",
+      "pid": 2260,
+      "cpu": 9.6,
+      "memory": "1.7GB",
+      "type": "service",
+      "command": "/usr/bin/code",
+      "user": "root"
+    },
+    {
+      "id": 261,
+      "name": "chrome",
+      "pid": 2261,
+      "cpu": 5.6,
+      "memory": "758MB",
+      "type": "user",
+      "command": "/Applications/Chrome.app/Contents/MacOS/Chrome",
+      "user": "mongodb"
+    },
+    {
+      "id": 262,
+      "name": "slack",
+      "pid": 2262,
+      "cpu": 14.7,
+      "memory": "1.5GB",
+      "type": "user",
+      "command": "/Applications/Slack.app/Contents/MacOS/Slack",
+      "user": "www-data"
+    },
+    {
+      "id": 263,
+      "name": "dropbox",
+      "pid": 2263,
+      "cpu": 7.0,
+      "memory": "1.7GB",
+      "type": "user",
+      "command": "/Applications/Dropbox.app/Contents/MacOS/Dropbox",
+      "user": "postgres"
+    },
+    {
+      "id": 264,
+      "name": "teams",
+      "pid": 2264,
+      "cpu": 9.6,
+      "memory": "1.6GB",
+      "type": "service",
+      "command": "/usr/bin/teams",
+      "user": "bob"
+    },
+    {
+      "id": 265,
+      "name": "chrome",
+      "pid": 2265,
+      "cpu": 8.8,
+      "memory": "516MB",
+      "type": "service",
+      "command": "/usr/bin/chrome",
+      "user": "redis"
+    },
+    {
+      "id": 266,
+      "name": "python",
+      "pid": 2266,
+      "cpu": 13.6,
+      "memory": "1.5GB",
+      "type": "system",
+      "command": "/usr/bin/python",
+      "user": "alice"
+    },
+    {
+      "id": 267,
+      "name": "zoom",
+      "pid": 2267,
+      "cpu": 1.8,
+      "memory": "1.3GB",
+      "type": "service",
+      "command": "/usr/bin/zoom",
+      "user": "www-data"
+    },
+    {
+      "id": 268,
+      "name": "xcode",
+      "pid": 2268,
+      "cpu": 6.9,
+      "memory": "1.3GB",
+      "type": "system",
+      "command": "/usr/bin/xcode",
+      "user": "bob"
+    },
+    {
+      "id": 269,
+      "name": "python",
+      "pid": 2269,
+      "cpu": 4.2,
+      "memory": "235MB",
+      "type": "system",
+      "command": "/usr/bin/python",
+      "user": "mongodb"
+    },
+    {
+      "id": 270,
+      "name": "nginx",
+      "pid": 2270,
+      "cpu": 6.3,
+      "memory": "898MB",
+      "type": "service",
+      "command": "/usr/bin/nginx",
+      "user": "alice"
+    },
+    {
+      "id": 271,
+      "name": "intellij",
+      "pid": 2271,
+      "cpu": 11.3,
+      "memory": "1.7GB",
+      "type": "user",
+      "command": "/Applications/Intellij.app/Contents/MacOS/Intellij",
+      "user": "alice"
+    },
+    {
+      "id": 272,
+      "name": "vscode",
+      "pid": 2272,
+      "cpu": 7.1,
+      "memory": "1.6GB",
+      "type": "user",
+      "command": "/Applications/Vscode.app/Contents/MacOS/Vscode",
+      "user": "bob"
+    },
+    {
+      "id": 273,
+      "name": "java",
+      "pid": 2273,
+      "cpu": 4.9,
+      "memory": "931MB",
+      "type": "user",
+      "command": "/Applications/Java.app/Contents/MacOS/Java",
+      "user": "mongodb"
+    },
+    {
+      "id": 274,
+      "name": "chrome",
+      "pid": 2274,
+      "cpu": 9.2,
+      "memory": "595MB",
+      "type": "user",
+      "command": "/Applications/Chrome.app/Contents/MacOS/Chrome",
+      "user": "www-data"
+    },
+    {
+      "id": 275,
+      "name": "postgres",
+      "pid": 2275,
+      "cpu": 0.6,
+      "memory": "861MB",
+      "type": "service",
+      "command": "/usr/bin/postgres",
+      "user": "www-data"
+    },
+    {
+      "id": 276,
+      "name": "vscode",
+      "pid": 2276,
+      "cpu": 3.4,
+      "memory": "1.6GB",
+      "type": "system",
+      "command": "/usr/bin/vscode",
+      "user": "alice"
+    },
+    {
+      "id": 277,
+      "name": "terminal",
+      "pid": 2277,
+      "cpu": 8.2,
+      "memory": "1.5GB",
+      "type": "user",
+      "command": "/Applications/Terminal.app/Contents/MacOS/Terminal",
+      "user": "mongodb"
+    },
+    {
+      "id": 278,
+      "name": "redis",
+      "pid": 2278,
+      "cpu": 13.4,
+      "memory": "1.3GB",
+      "type": "system",
+      "command": "/usr/bin/redis",
+      "user": "redis"
+    },
+    {
+      "id": 279,
+      "name": "postgres",
+      "pid": 2279,
+      "cpu": 5.4,
+      "memory": "74MB",
+      "type": "user",
+      "command": "/Applications/Postgres.app/Contents/MacOS/Postgres",
+      "user": "postgres"
+    },
+    {
+      "id": 280,
+      "name": "python",
+      "pid": 2280,
+      "cpu": 14.4,
+      "memory": "1.3GB",
+      "type": "user",
+      "command": "/Applications/Python.app/Contents/MacOS/Python",
+      "user": "redis"
+    },
+    {
+      "id": 281,
+      "name": "firefox",
+      "pid": 2281,
+      "cpu": 11.9,
+      "memory": "622MB",
+      "type": "service",
+      "command": "/usr/bin/firefox",
+      "user": "redis"
+    },
+    {
+      "id": 282,
+      "name": "firefox",
+      "pid": 2282,
+      "cpu": 3.2,
+      "memory": "1.6GB",
+      "type": "system",
+      "command": "/usr/bin/firefox",
+      "user": "alice"
+    },
+    {
+      "id": 283,
+      "name": "nginx",
+      "pid": 2283,
+      "cpu": 9.6,
+      "memory": "868MB",
+      "type": "service",
+      "command": "/usr/bin/nginx",
+      "user": "postgres"
+    },
+    {
+      "id": 284,
+      "name": "postgres",
+      "pid": 2284,
+      "cpu": 5.2,
+      "memory": "537MB",
+      "type": "user",
+      "command": "/Applications/Postgres.app/Contents/MacOS/Postgres",
+      "user": "mysql"
+    },
+    {
+      "id": 285,
+      "name": "code",
+      "pid": 2285,
+      "cpu": 2.8,
+      "memory": "538MB",
+      "type": "service",
+      "command": "/usr/bin/code",
+      "user": "www-data"
+    },
+    {
+      "id": 286,
+      "name": "firefox",
+      "pid": 2286,
+      "cpu": 2.4,
+      "memory": "1.8GB",
+      "type": "system",
+      "command": "/usr/bin/firefox",
+      "user": "postgres"
+    },
+    {
+      "id": 287,
+      "name": "safari",
+      "pid": 2287,
+      "cpu": 8.7,
+      "memory": "1.1GB",
+      "type": "system",
+      "command": "/usr/bin/safari",
+      "user": "postgres"
+    },
+    {
+      "id": 288,
+      "name": "mongodb",
+      "pid": 2288,
+      "cpu": 11.1,
+      "memory": "1.3GB",
+      "type": "user",
+      "command": "/Applications/Mongodb.app/Contents/MacOS/Mongodb",
+      "user": "bob"
+    },
+    {
+      "id": 289,
+      "name": "safari",
+      "pid": 2289,
+      "cpu": 3.4,
+      "memory": "102MB",
+      "type": "user",
+      "command": "/Applications/Safari.app/Contents/MacOS/Safari",
+      "user": "redis"
+    },
+    {
+      "id": 290,
+      "name": "safari",
+      "pid": 2290,
+      "cpu": 14.9,
+      "memory": "252MB",
+      "type": "service",
+      "command": "/usr/bin/safari",
+      "user": "root"
+    },
+    {
+      "id": 291,
+      "name": "java",
+      "pid": 2291,
+      "cpu": 10.7,
+      "memory": "738MB",
+      "type": "system",
+      "command": "/usr/bin/java",
+      "user": "alice"
+    },
+    {
+      "id": 292,
+      "name": "safari",
+      "pid": 2292,
+      "cpu": 1.9,
+      "memory": "95MB",
+      "type": "system",
+      "command": "/usr/bin/safari",
+      "user": "alice"
+    },
+    {
+      "id": 293,
+      "name": "vscode",
+      "pid": 2293,
+      "cpu": 6.3,
+      "memory": "1.7GB",
+      "type": "service",
+      "command": "/usr/bin/vscode",
+      "user": "postgres"
+    },
+    {
+      "id": 294,
+      "name": "mysql",
+      "pid": 2294,
+      "cpu": 11.7,
+      "memory": "908MB",
+      "type": "service",
+      "command": "/usr/bin/mysql",
+      "user": "www-data"
+    },
+    {
+      "id": 295,
+      "name": "docker",
+      "pid": 2295,
+      "cpu": 1.3,
+      "memory": "1016MB",
+      "type": "system",
+      "command": "/usr/bin/docker",
+      "user": "bob"
+    },
+    {
+      "id": 296,
+      "name": "dropbox",
+      "pid": 2296,
+      "cpu": 3.9,
+      "memory": "568MB",
+      "type": "service",
+      "command": "/usr/bin/dropbox",
+      "user": "mysql"
+    },
+    {
+      "id": 297,
+      "name": "chrome",
+      "pid": 2297,
+      "cpu": 10.8,
+      "memory": "509MB",
+      "type": "user",
+      "command": "/Applications/Chrome.app/Contents/MacOS/Chrome",
+      "user": "www-data"
+    },
+    {
+      "id": 298,
+      "name": "redis",
+      "pid": 2298,
+      "cpu": 4.7,
+      "memory": "1.3GB",
+      "type": "user",
+      "command": "/Applications/Redis.app/Contents/MacOS/Redis",
+      "user": "mysql"
+    },
+    {
+      "id": 299,
+      "name": "vscode",
+      "pid": 2299,
+      "cpu": 3.1,
+      "memory": "523MB",
+      "type": "system",
+      "command": "/usr/bin/vscode",
+      "user": "root"
+    },
+    {
+      "id": 300,
+      "name": "nginx",
+      "pid": 2300,
+      "cpu": 14.8,
+      "memory": "587MB",
+      "type": "system",
+      "command": "/usr/bin/nginx",
+      "user": "bob"
+    },
+    {
+      "id": 301,
+      "name": "intellij",
+      "pid": 2301,
+      "cpu": 12.9,
+      "memory": "205MB",
+      "type": "user",
+      "command": "/Applications/Intellij.app/Contents/MacOS/Intellij",
+      "user": "bob"
+    },
+    {
+      "id": 302,
+      "name": "docker",
+      "pid": 2302,
+      "cpu": 3.9,
+      "memory": "1.9GB",
+      "type": "user",
+      "command": "/Applications/Docker.app/Contents/MacOS/Docker",
+      "user": "redis"
+    },
+    {
+      "id": 303,
+      "name": "dropbox",
+      "pid": 2303,
+      "cpu": 10.2,
+      "memory": "164MB",
+      "type": "user",
+      "command": "/Applications/Dropbox.app/Contents/MacOS/Dropbox",
+      "user": "mysql"
+    },
+    {
+      "id": 304,
+      "name": "docker",
+      "pid": 2304,
+      "cpu": 1.5,
+      "memory": "1.9GB",
+      "type": "system",
+      "command": "/usr/bin/docker",
+      "user": "mysql"
+    },
+    {
+      "id": 305,
+      "name": "java",
+      "pid": 2305,
+      "cpu": 13.9,
+      "memory": "635MB",
+      "type": "user",
+      "command": "/Applications/Java.app/Contents/MacOS/Java",
+      "user": "alice"
+    },
+    {
+      "id": 306,
+      "name": "python",
+      "pid": 2306,
+      "cpu": 2.6,
+      "memory": "1.3GB",
+      "type": "service",
+      "command": "/usr/bin/python",
+      "user": "www-data"
+    },
+    {
+      "id": 307,
+      "name": "nginx",
+      "pid": 2307,
+      "cpu": 6.2,
+      "memory": "1.8GB",
+      "type": "user",
+      "command": "/Applications/Nginx.app/Contents/MacOS/Nginx",
+      "user": "root"
+    },
+    {
+      "id": 308,
+      "name": "postgres",
+      "pid": 2308,
+      "cpu": 9.0,
+      "memory": "1.4GB",
+      "type": "service",
+      "command": "/usr/bin/postgres",
+      "user": "mysql"
+    },
+    {
+      "id": 309,
+      "name": "mysql",
+      "pid": 2309,
+      "cpu": 4.0,
+      "memory": "551MB",
+      "type": "system",
+      "command": "/usr/bin/mysql",
+      "user": "www-data"
+    },
+    {
+      "id": 310,
+      "name": "intellij",
+      "pid": 2310,
+      "cpu": 10.6,
+      "memory": "602MB",
+      "type": "service",
+      "command": "/usr/bin/intellij",
+      "user": "redis"
+    },
+    {
+      "id": 311,
+      "name": "mysql",
+      "pid": 2311,
+      "cpu": 2.0,
+      "memory": "1.3GB",
+      "type": "service",
+      "command": "/usr/bin/mysql",
+      "user": "bob"
+    },
+    {
+      "id": 312,
+      "name": "teams",
+      "pid": 2312,
+      "cpu": 7.9,
+      "memory": "1.4GB",
+      "type": "system",
+      "command": "/usr/bin/teams",
+      "user": "mysql"
+    },
+    {
+      "id": 313,
+      "name": "firefox",
+      "pid": 2313,
+      "cpu": 10.8,
+      "memory": "1.0GB",
+      "type": "user",
+      "command": "/Applications/Firefox.app/Contents/MacOS/Firefox",
+      "user": "alice"
+    },
+    {
+      "id": 314,
+      "name": "postgres",
+      "pid": 2314,
+      "cpu": 0.7,
+      "memory": "1.1GB",
+      "type": "service",
+      "command": "/usr/bin/postgres",
+      "user": "bob"
+    },
+    {
+      "id": 315,
+      "name": "zoom",
+      "pid": 2315,
+      "cpu": 6.0,
+      "memory": "531MB",
+      "type": "system",
+      "command": "/usr/bin/zoom",
+      "user": "postgres"
+    },
+    {
+      "id": 316,
+      "name": "python",
+      "pid": 2316,
+      "cpu": 4.7,
+      "memory": "658MB",
+      "type": "user",
+      "command": "/Applications/Python.app/Contents/MacOS/Python",
+      "user": "www-data"
+    },
+    {
+      "id": 317,
+      "name": "firefox",
+      "pid": 2317,
+      "cpu": 10.6,
+      "memory": "751MB",
+      "type": "service",
+      "command": "/usr/bin/firefox",
+      "user": "mongodb"
+    },
+    {
+      "id": 318,
+      "name": "chrome",
+      "pid": 2318,
+      "cpu": 14.9,
+      "memory": "1.0GB",
+      "type": "system",
+      "command": "/usr/bin/chrome",
+      "user": "alice"
+    },
+    {
+      "id": 319,
+      "name": "mongodb",
+      "pid": 2319,
+      "cpu": 6.3,
+      "memory": "749MB",
+      "type": "system",
+      "command": "/usr/bin/mongodb",
+      "user": "redis"
+    },
+    {
+      "id": 320,
+      "name": "mysql",
+      "pid": 2320,
+      "cpu": 0.9,
+      "memory": "1.6GB",
+      "type": "user",
+      "command": "/Applications/Mysql.app/Contents/MacOS/Mysql",
+      "user": "mongodb"
+    },
+    {
+      "id": 321,
+      "name": "docker",
+      "pid": 2321,
+      "cpu": 12.4,
+      "memory": "225MB",
+      "type": "user",
+      "command": "/Applications/Docker.app/Contents/MacOS/Docker",
+      "user": "alice"
+    },
+    {
+      "id": 322,
+      "name": "java",
+      "pid": 2322,
+      "cpu": 13.2,
+      "memory": "1.2GB",
+      "type": "system",
+      "command": "/usr/bin/java",
+      "user": "mysql"
+    },
+    {
+      "id": 323,
+      "name": "spotify",
+      "pid": 2323,
+      "cpu": 5.4,
+      "memory": "1.5GB",
+      "type": "service",
+      "command": "/usr/bin/spotify",
+      "user": "mysql"
+    },
+    {
+      "id": 324,
+      "name": "postgres",
+      "pid": 2324,
+      "cpu": 1.0,
+      "memory": "1.9GB",
+      "type": "system",
+      "command": "/usr/bin/postgres",
+      "user": "www-data"
+    },
+    {
+      "id": 325,
+      "name": "teams",
+      "pid": 2325,
+      "cpu": 4.3,
+      "memory": "1.8GB",
+      "type": "service",
+      "command": "/usr/bin/teams",
+      "user": "mongodb"
+    },
+    {
+      "id": 326,
+      "name": "mongodb",
+      "pid": 2326,
+      "cpu": 6.4,
+      "memory": "1.4GB",
+      "type": "user",
+      "command": "/Applications/Mongodb.app/Contents/MacOS/Mongodb",
+      "user": "mongodb"
+    },
+    {
+      "id": 327,
+      "name": "java",
+      "pid": 2327,
+      "cpu": 12.0,
+      "memory": "327MB",
+      "type": "service",
+      "command": "/usr/bin/java",
+      "user": "root"
+    },
+    {
+      "id": 328,
+      "name": "firefox",
+      "pid": 2328,
+      "cpu": 4.8,
+      "memory": "1.3GB",
+      "type": "system",
+      "command": "/usr/bin/firefox",
+      "user": "redis"
+    },
+    {
+      "id": 329,
+      "name": "terminal",
+      "pid": 2329,
+      "cpu": 4.1,
+      "memory": "1.9GB",
+      "type": "system",
+      "command": "/usr/bin/terminal",
+      "user": "www-data"
+    },
+    {
+      "id": 330,
+      "name": "nginx",
+      "pid": 2330,
+      "cpu": 8.9,
+      "memory": "365MB",
+      "type": "service",
+      "command": "/usr/bin/nginx",
+      "user": "root"
+    },
+    {
+      "id": 331,
+      "name": "spotify",
+      "pid": 2331,
+      "cpu": 7.7,
+      "memory": "75MB",
+      "type": "user",
+      "command": "/Applications/Spotify.app/Contents/MacOS/Spotify",
+      "user": "bob"
+    },
+    {
+      "id": 332,
+      "name": "mongodb",
+      "pid": 2332,
+      "cpu": 0.8,
+      "memory": "815MB",
+      "type": "user",
+      "command": "/Applications/Mongodb.app/Contents/MacOS/Mongodb",
+      "user": "mysql"
+    },
+    {
+      "id": 333,
+      "name": "java",
+      "pid": 2333,
+      "cpu": 5.8,
+      "memory": "1.7GB",
+      "type": "service",
+      "command": "/usr/bin/java",
+      "user": "mysql"
+    },
+    {
+      "id": 334,
+      "name": "chrome",
+      "pid": 2334,
+      "cpu": 10.8,
+      "memory": "1.2GB",
+      "type": "service",
+      "command": "/usr/bin/chrome",
+      "user": "redis"
+    },
+    {
+      "id": 335,
+      "name": "docker",
+      "pid": 2335,
+      "cpu": 0.2,
+      "memory": "1.7GB",
+      "type": "system",
+      "command": "/usr/bin/docker",
+      "user": "root"
+    },
+    {
+      "id": 336,
+      "name": "dropbox",
+      "pid": 2336,
+      "cpu": 3.5,
+      "memory": "1.0GB",
+      "type": "user",
+      "command": "/Applications/Dropbox.app/Contents/MacOS/Dropbox",
+      "user": "www-data"
+    },
+    {
+      "id": 337,
+      "name": "safari",
+      "pid": 2337,
+      "cpu": 8.0,
+      "memory": "1.8GB",
+      "type": "system",
+      "command": "/usr/bin/safari",
+      "user": "redis"
+    },
+    {
+      "id": 338,
+      "name": "safari",
+      "pid": 2338,
+      "cpu": 6.9,
+      "memory": "95MB",
+      "type": "user",
+      "command": "/Applications/Safari.app/Contents/MacOS/Safari",
+      "user": "bob"
+    },
+    {
+      "id": 339,
+      "name": "intellij",
+      "pid": 2339,
+      "cpu": 6.3,
+      "memory": "1.5GB",
+      "type": "user",
+      "command": "/Applications/Intellij.app/Contents/MacOS/Intellij",
+      "user": "postgres"
+    },
+    {
+      "id": 340,
+      "name": "nginx",
+      "pid": 2340,
+      "cpu": 11.0,
+      "memory": "1.4GB",
+      "type": "service",
+      "command": "/usr/bin/nginx",
+      "user": "redis"
+    },
+    {
+      "id": 341,
+      "name": "intellij",
+      "pid": 2341,
+      "cpu": 14.6,
+      "memory": "1.7GB",
+      "type": "user",
+      "command": "/Applications/Intellij.app/Contents/MacOS/Intellij",
+      "user": "postgres"
+    },
+    {
+      "id": 342,
+      "name": "redis",
+      "pid": 2342,
+      "cpu": 5.3,
+      "memory": "1.2GB",
+      "type": "user",
+      "command": "/Applications/Redis.app/Contents/MacOS/Redis",
+      "user": "www-data"
+    },
+    {
+      "id": 343,
+      "name": "redis",
+      "pid": 2343,
+      "cpu": 5.2,
+      "memory": "114MB",
+      "type": "user",
+      "command": "/Applications/Redis.app/Contents/MacOS/Redis",
+      "user": "mongodb"
+    },
+    {
+      "id": 344,
+      "name": "redis",
+      "pid": 2344,
+      "cpu": 10.6,
+      "memory": "236MB",
+      "type": "user",
+      "command": "/Applications/Redis.app/Contents/MacOS/Redis",
+      "user": "redis"
+    },
+    {
+      "id": 345,
+      "name": "slack",
+      "pid": 2345,
+      "cpu": 13.1,
+      "memory": "565MB",
+      "type": "system",
+      "command": "/usr/bin/slack",
+      "user": "postgres"
+    },
+    {
+      "id": 346,
+      "name": "intellij",
+      "pid": 2346,
+      "cpu": 0.9,
+      "memory": "1.7GB",
+      "type": "service",
+      "command": "/usr/bin/intellij",
+      "user": "postgres"
+    },
+    {
+      "id": 347,
+      "name": "mongodb",
+      "pid": 2347,
+      "cpu": 1.4,
+      "memory": "1.9GB",
+      "type": "user",
+      "command": "/Applications/Mongodb.app/Contents/MacOS/Mongodb",
+      "user": "mysql"
+    },
+    {
+      "id": 348,
+      "name": "postgres",
+      "pid": 2348,
+      "cpu": 12.1,
+      "memory": "1.3GB",
+      "type": "user",
+      "command": "/Applications/Postgres.app/Contents/MacOS/Postgres",
+      "user": "redis"
+    },
+    {
+      "id": 349,
+      "name": "redis",
+      "pid": 2349,
+      "cpu": 1.4,
+      "memory": "1.2GB",
+      "type": "service",
+      "command": "/usr/bin/redis",
+      "user": "mongodb"
+    },
+    {
+      "id": 350,
+      "name": "xcode",
+      "pid": 2350,
+      "cpu": 4.3,
+      "memory": "230MB",
+      "type": "service",
+      "command": "/usr/bin/xcode",
+      "user": "mongodb"
+    },
+    {
+      "id": 351,
+      "name": "vscode",
+      "pid": 2351,
+      "cpu": 14.0,
+      "memory": "436MB",
+      "type": "system",
+      "command": "/usr/bin/vscode",
+      "user": "redis"
+    },
+    {
+      "id": 352,
+      "name": "mongodb",
+      "pid": 2352,
+      "cpu": 11.3,
+      "memory": "312MB",
+      "type": "system",
+      "command": "/usr/bin/mongodb",
+      "user": "redis"
+    },
+    {
+      "id": 353,
+      "name": "slack",
+      "pid": 2353,
+      "cpu": 11.0,
+      "memory": "327MB",
+      "type": "system",
+      "command": "/usr/bin/slack",
+      "user": "mysql"
+    },
+    {
+      "id": 354,
+      "name": "node",
+      "pid": 2354,
+      "cpu": 0.8,
+      "memory": "1.8GB",
+      "type": "service",
+      "command": "/usr/bin/node",
+      "user": "root"
+    },
+    {
+      "id": 355,
+      "name": "nginx",
+      "pid": 2355,
+      "cpu": 1.7,
+      "memory": "1.1GB",
+      "type": "user",
+      "command": "/Applications/Nginx.app/Contents/MacOS/Nginx",
+      "user": "www-data"
+    },
+    {
+      "id": 356,
+      "name": "vscode",
+      "pid": 2356,
+      "cpu": 5.8,
+      "memory": "1001MB",
+      "type": "service",
+      "command": "/usr/bin/vscode",
+      "user": "mongodb"
+    },
+    {
+      "id": 357,
+      "name": "redis",
+      "pid": 2357,
+      "cpu": 0.3,
+      "memory": "1.2GB",
+      "type": "user",
+      "command": "/Applications/Redis.app/Contents/MacOS/Redis",
+      "user": "root"
+    },
+    {
+      "id": 358,
+      "name": "nginx",
+      "pid": 2358,
+      "cpu": 13.5,
+      "memory": "118MB",
+      "type": "system",
+      "command": "/usr/bin/nginx",
+      "user": "alice"
+    },
+    {
+      "id": 359,
+      "name": "docker",
+      "pid": 2359,
+      "cpu": 2.1,
+      "memory": "1.4GB",
+      "type": "user",
+      "command": "/Applications/Docker.app/Contents/MacOS/Docker",
+      "user": "mysql"
+    },
+    {
+      "id": 360,
+      "name": "docker",
+      "pid": 2360,
+      "cpu": 14.0,
+      "memory": "1.4GB",
+      "type": "user",
+      "command": "/Applications/Docker.app/Contents/MacOS/Docker",
+      "user": "postgres"
+    },
+    {
+      "id": 361,
+      "name": "dropbox",
+      "pid": 2361,
+      "cpu": 9.6,
+      "memory": "1.9GB",
+      "type": "system",
+      "command": "/usr/bin/dropbox",
+      "user": "root"
+    },
+    {
+      "id": 362,
+      "name": "dropbox",
+      "pid": 2362,
+      "cpu": 1.9,
+      "memory": "531MB",
+      "type": "system",
+      "command": "/usr/bin/dropbox",
+      "user": "alice"
+    },
+    {
+      "id": 363,
+      "name": "slack",
+      "pid": 2363,
+      "cpu": 3.4,
+      "memory": "1.9GB",
+      "type": "user",
+      "command": "/Applications/Slack.app/Contents/MacOS/Slack",
+      "user": "www-data"
+    },
+    {
+      "id": 364,
+      "name": "code",
+      "pid": 2364,
+      "cpu": 2.7,
+      "memory": "1.9GB",
+      "type": "system",
+      "command": "/usr/bin/code",
+      "user": "redis"
+    },
+    {
+      "id": 365,
+      "name": "docker",
+      "pid": 2365,
+      "cpu": 3.1,
+      "memory": "301MB",
+      "type": "system",
+      "command": "/usr/bin/docker",
+      "user": "alice"
+    },
+    {
+      "id": 366,
+      "name": "slack",
+      "pid": 2366,
+      "cpu": 13.2,
+      "memory": "1.9GB",
+      "type": "user",
+      "command": "/Applications/Slack.app/Contents/MacOS/Slack",
+      "user": "redis"
+    },
+    {
+      "id": 367,
+      "name": "terminal",
+      "pid": 2367,
+      "cpu": 1.7,
+      "memory": "794MB",
+      "type": "user",
+      "command": "/Applications/Terminal.app/Contents/MacOS/Terminal",
+      "user": "postgres"
+    },
+    {
+      "id": 368,
+      "name": "python",
+      "pid": 2368,
+      "cpu": 13.3,
+      "memory": "1.4GB",
+      "type": "service",
+      "command": "/usr/bin/python",
+      "user": "www-data"
+    },
+    {
+      "id": 369,
+      "name": "mongodb",
+      "pid": 2369,
+      "cpu": 10.3,
+      "memory": "1.8GB",
+      "type": "system",
+      "command": "/usr/bin/mongodb",
+      "user": "redis"
+    },
+    {
+      "id": 370,
+      "name": "spotify",
+      "pid": 2370,
+      "cpu": 6.6,
+      "memory": "443MB",
+      "type": "user",
+      "command": "/Applications/Spotify.app/Contents/MacOS/Spotify",
+      "user": "bob"
+    },
+    {
+      "id": 371,
+      "name": "intellij",
+      "pid": 2371,
+      "cpu": 11.2,
+      "memory": "1.9GB",
+      "type": "system",
+      "command": "/usr/bin/intellij",
+      "user": "redis"
+    },
+    {
+      "id": 372,
+      "name": "python",
+      "pid": 2372,
+      "cpu": 9.2,
+      "memory": "913MB",
+      "type": "service",
+      "command": "/usr/bin/python",
+      "user": "redis"
+    },
+    {
+      "id": 373,
+      "name": "java",
+      "pid": 2373,
+      "cpu": 14.9,
+      "memory": "1.9GB",
+      "type": "service",
+      "command": "/usr/bin/java",
+      "user": "mysql"
+    },
+    {
+      "id": 374,
+      "name": "terminal",
+      "pid": 2374,
+      "cpu": 14.8,
+      "memory": "660MB",
+      "type": "service",
+      "command": "/usr/bin/terminal",
+      "user": "bob"
+    },
+    {
+      "id": 375,
+      "name": "slack",
+      "pid": 2375,
+      "cpu": 1.0,
+      "memory": "433MB",
+      "type": "service",
+      "command": "/usr/bin/slack",
+      "user": "alice"
+    },
+    {
+      "id": 376,
+      "name": "intellij",
+      "pid": 2376,
+      "cpu": 9.4,
+      "memory": "1.3GB",
+      "type": "service",
+      "command": "/usr/bin/intellij",
+      "user": "www-data"
+    },
+    {
+      "id": 377,
+      "name": "firefox",
+      "pid": 2377,
+      "cpu": 2.3,
+      "memory": "1.5GB",
+      "type": "user",
+      "command": "/Applications/Firefox.app/Contents/MacOS/Firefox",
+      "user": "alice"
+    },
+    {
+      "id": 378,
+      "name": "java",
+      "pid": 2378,
+      "cpu": 14.5,
+      "memory": "799MB",
+      "type": "service",
+      "command": "/usr/bin/java",
+      "user": "postgres"
+    },
+    {
+      "id": 379,
+      "name": "docker",
+      "pid": 2379,
+      "cpu": 8.7,
+      "memory": "430MB",
+      "type": "system",
+      "command": "/usr/bin/docker",
+      "user": "alice"
+    },
+    {
+      "id": 380,
+      "name": "xcode",
+      "pid": 2380,
+      "cpu": 1.6,
+      "memory": "706MB",
+      "type": "service",
+      "command": "/usr/bin/xcode",
+      "user": "redis"
+    },
+    {
+      "id": 381,
+      "name": "firefox",
+      "pid": 2381,
+      "cpu": 8.2,
+      "memory": "1.7GB",
+      "type": "system",
+      "command": "/usr/bin/firefox",
+      "user": "alice"
+    },
+    {
+      "id": 382,
+      "name": "firefox",
+      "pid": 2382,
+      "cpu": 1.9,
+      "memory": "576MB",
+      "type": "system",
+      "command": "/usr/bin/firefox",
+      "user": "bob"
+    },
+    {
+      "id": 383,
+      "name": "code",
+      "pid": 2383,
+      "cpu": 9.6,
+      "memory": "239MB",
+      "type": "service",
+      "command": "/usr/bin/code",
+      "user": "mysql"
+    },
+    {
+      "id": 384,
+      "name": "intellij",
+      "pid": 2384,
+      "cpu": 15.0,
+      "memory": "1.2GB",
+      "type": "user",
+      "command": "/Applications/Intellij.app/Contents/MacOS/Intellij",
+      "user": "mysql"
+    },
+    {
+      "id": 385,
+      "name": "java",
+      "pid": 2385,
+      "cpu": 6.1,
+      "memory": "1.1GB",
+      "type": "system",
+      "command": "/usr/bin/java",
+      "user": "bob"
+    },
+    {
+      "id": 386,
+      "name": "nginx",
+      "pid": 2386,
+      "cpu": 3.2,
+      "memory": "1.7GB",
+      "type": "service",
+      "command": "/usr/bin/nginx",
+      "user": "bob"
+    },
+    {
+      "id": 387,
+      "name": "python",
+      "pid": 2387,
+      "cpu": 1.9,
+      "memory": "144MB",
+      "type": "system",
+      "command": "/usr/bin/python",
+      "user": "www-data"
+    },
+    {
+      "id": 388,
+      "name": "teams",
+      "pid": 2388,
+      "cpu": 14.1,
+      "memory": "209MB",
+      "type": "user",
+      "command": "/Applications/Teams.app/Contents/MacOS/Teams",
+      "user": "mongodb"
+    },
+    {
+      "id": 389,
+      "name": "zoom",
+      "pid": 2389,
+      "cpu": 6.7,
+      "memory": "569MB",
+      "type": "service",
+      "command": "/usr/bin/zoom",
+      "user": "www-data"
+    },
+    {
+      "id": 390,
+      "name": "mysql",
+      "pid": 2390,
+      "cpu": 11.6,
+      "memory": "1.7GB",
+      "type": "user",
+      "command": "/Applications/Mysql.app/Contents/MacOS/Mysql",
+      "user": "redis"
+    },
+    {
+      "id": 391,
+      "name": "dropbox",
+      "pid": 2391,
+      "cpu": 9.7,
+      "memory": "131MB",
+      "type": "user",
+      "command": "/Applications/Dropbox.app/Contents/MacOS/Dropbox",
+      "user": "bob"
+    },
+    {
+      "id": 392,
+      "name": "node",
+      "pid": 2392,
+      "cpu": 12.7,
+      "memory": "154MB",
+      "type": "user",
+      "command": "/Applications/Node.app/Contents/MacOS/Node",
+      "user": "mongodb"
+    },
+    {
+      "id": 393,
+      "name": "java",
+      "pid": 2393,
+      "cpu": 12.6,
+      "memory": "751MB",
+      "type": "user",
+      "command": "/Applications/Java.app/Contents/MacOS/Java",
+      "user": "mysql"
+    },
+    {
+      "id": 394,
+      "name": "safari",
+      "pid": 2394,
+      "cpu": 1.5,
+      "memory": "138MB",
+      "type": "user",
+      "command": "/Applications/Safari.app/Contents/MacOS/Safari",
+      "user": "root"
+    },
+    {
+      "id": 395,
+      "name": "firefox",
+      "pid": 2395,
+      "cpu": 13.8,
+      "memory": "1.0GB",
+      "type": "service",
+      "command": "/usr/bin/firefox",
+      "user": "bob"
+    },
+    {
+      "id": 396,
+      "name": "spotify",
+      "pid": 2396,
+      "cpu": 14.4,
+      "memory": "677MB",
+      "type": "system",
+      "command": "/usr/bin/spotify",
+      "user": "alice"
+    },
+    {
+      "id": 397,
+      "name": "nginx",
+      "pid": 2397,
+      "cpu": 2.6,
+      "memory": "170MB",
+      "type": "user",
+      "command": "/Applications/Nginx.app/Contents/MacOS/Nginx",
+      "user": "redis"
+    },
+    {
+      "id": 398,
+      "name": "nginx",
+      "pid": 2398,
+      "cpu": 4.4,
+      "memory": "379MB",
+      "type": "system",
+      "command": "/usr/bin/nginx",
+      "user": "www-data"
+    },
+    {
+      "id": 399,
+      "name": "dropbox",
+      "pid": 2399,
+      "cpu": 4.7,
+      "memory": "477MB",
+      "type": "system",
+      "command": "/usr/bin/dropbox",
+      "user": "mongodb"
+    },
+    {
+      "id": 400,
+      "name": "firefox",
+      "pid": 2400,
+      "cpu": 5.1,
+      "memory": "796MB",
+      "type": "system",
+      "command": "/usr/bin/firefox",
+      "user": "postgres"
+    },
+    {
+      "id": 401,
+      "name": "safari",
+      "pid": 2401,
+      "cpu": 7.0,
+      "memory": "1.4GB",
+      "type": "service",
+      "command": "/usr/bin/safari",
+      "user": "bob"
+    },
+    {
+      "id": 402,
+      "name": "python",
+      "pid": 2402,
+      "cpu": 8.7,
+      "memory": "929MB",
+      "type": "system",
+      "command": "/usr/bin/python",
+      "user": "alice"
+    },
+    {
+      "id": 403,
+      "name": "vscode",
+      "pid": 2403,
+      "cpu": 6.4,
+      "memory": "1.5GB",
+      "type": "system",
+      "command": "/usr/bin/vscode",
+      "user": "redis"
+    },
+    {
+      "id": 404,
+      "name": "xcode",
+      "pid": 2404,
+      "cpu": 6.9,
+      "memory": "1.5GB",
+      "type": "service",
+      "command": "/usr/bin/xcode",
+      "user": "www-data"
+    },
+    {
+      "id": 405,
+      "name": "mongodb",
+      "pid": 2405,
+      "cpu": 1.1,
+      "memory": "579MB",
+      "type": "service",
+      "command": "/usr/bin/mongodb",
+      "user": "www-data"
+    },
+    {
+      "id": 406,
+      "name": "spotify",
+      "pid": 2406,
+      "cpu": 5.3,
+      "memory": "1.8GB",
+      "type": "system",
+      "command": "/usr/bin/spotify",
+      "user": "redis"
+    },
+    {
+      "id": 407,
+      "name": "teams",
+      "pid": 2407,
+      "cpu": 13.7,
+      "memory": "1.9GB",
+      "type": "user",
+      "command": "/Applications/Teams.app/Contents/MacOS/Teams",
+      "user": "root"
+    },
+    {
+      "id": 408,
+      "name": "intellij",
+      "pid": 2408,
+      "cpu": 14.4,
+      "memory": "1.5GB",
+      "type": "user",
+      "command": "/Applications/Intellij.app/Contents/MacOS/Intellij",
+      "user": "mysql"
+    },
+    {
+      "id": 409,
+      "name": "intellij",
+      "pid": 2409,
+      "cpu": 12.3,
+      "memory": "36MB",
+      "type": "user",
+      "command": "/Applications/Intellij.app/Contents/MacOS/Intellij",
+      "user": "alice"
+    },
+    {
+      "id": 410,
+      "name": "code",
+      "pid": 2410,
+      "cpu": 11.3,
+      "memory": "558MB",
+      "type": "service",
+      "command": "/usr/bin/code",
+      "user": "alice"
+    },
+    {
+      "id": 411,
+      "name": "safari",
+      "pid": 2411,
+      "cpu": 7.9,
+      "memory": "893MB",
+      "type": "user",
+      "command": "/Applications/Safari.app/Contents/MacOS/Safari",
+      "user": "alice"
+    },
+    {
+      "id": 412,
+      "name": "xcode",
+      "pid": 2412,
+      "cpu": 2.3,
+      "memory": "722MB",
+      "type": "user",
+      "command": "/Applications/Xcode.app/Contents/MacOS/Xcode",
+      "user": "alice"
+    },
+    {
+      "id": 413,
+      "name": "node",
+      "pid": 2413,
+      "cpu": 11.8,
+      "memory": "1.7GB",
+      "type": "user",
+      "command": "/Applications/Node.app/Contents/MacOS/Node",
+      "user": "alice"
+    },
+    {
+      "id": 414,
+      "name": "mysql",
+      "pid": 2414,
+      "cpu": 5.6,
+      "memory": "1.3GB",
+      "type": "system",
+      "command": "/usr/bin/mysql",
+      "user": "postgres"
+    },
+    {
+      "id": 415,
+      "name": "code",
+      "pid": 2415,
+      "cpu": 8.8,
+      "memory": "1.5GB",
+      "type": "user",
+      "command": "/Applications/Code.app/Contents/MacOS/Code",
+      "user": "alice"
+    },
+    {
+      "id": 416,
+      "name": "spotify",
+      "pid": 2416,
+      "cpu": 13.0,
+      "memory": "1.5GB",
+      "type": "service",
+      "command": "/usr/bin/spotify",
+      "user": "postgres"
+    },
+    {
+      "id": 417,
+      "name": "dropbox",
+      "pid": 2417,
+      "cpu": 12.1,
+      "memory": "1.2GB",
+      "type": "system",
+      "command": "/usr/bin/dropbox",
+      "user": "mysql"
+    },
+    {
+      "id": 418,
+      "name": "chrome",
+      "pid": 2418,
+      "cpu": 1.5,
+      "memory": "666MB",
+      "type": "service",
+      "command": "/usr/bin/chrome",
+      "user": "mongodb"
+    },
+    {
+      "id": 419,
+      "name": "terminal",
+      "pid": 2419,
+      "cpu": 3.1,
+      "memory": "1.6GB",
+      "type": "service",
+      "command": "/usr/bin/terminal",
+      "user": "mongodb"
+    },
+    {
+      "id": 420,
+      "name": "node",
+      "pid": 2420,
+      "cpu": 7.2,
+      "memory": "1.2GB",
+      "type": "service",
+      "command": "/usr/bin/node",
+      "user": "mongodb"
+    },
+    {
+      "id": 421,
+      "name": "spotify",
+      "pid": 2421,
+      "cpu": 9.1,
+      "memory": "1.6GB",
+      "type": "user",
+      "command": "/Applications/Spotify.app/Contents/MacOS/Spotify",
+      "user": "www-data"
+    },
+    {
+      "id": 422,
+      "name": "vscode",
+      "pid": 2422,
+      "cpu": 11.2,
+      "memory": "579MB",
+      "type": "system",
+      "command": "/usr/bin/vscode",
+      "user": "root"
+    },
+    {
+      "id": 423,
+      "name": "safari",
+      "pid": 2423,
+      "cpu": 12.8,
+      "memory": "1.7GB",
+      "type": "system",
+      "command": "/usr/bin/safari",
+      "user": "postgres"
+    },
+    {
+      "id": 424,
+      "name": "safari",
+      "pid": 2424,
+      "cpu": 2.5,
+      "memory": "420MB",
+      "type": "system",
+      "command": "/usr/bin/safari",
+      "user": "alice"
+    },
+    {
+      "id": 425,
+      "name": "terminal",
+      "pid": 2425,
+      "cpu": 14.1,
+      "memory": "136MB",
+      "type": "service",
+      "command": "/usr/bin/terminal",
+      "user": "redis"
+    },
+    {
+      "id": 426,
+      "name": "python",
+      "pid": 2426,
+      "cpu": 4.5,
+      "memory": "1.1GB",
+      "type": "service",
+      "command": "/usr/bin/python",
+      "user": "www-data"
+    },
+    {
+      "id": 427,
+      "name": "java",
+      "pid": 2427,
+      "cpu": 1.9,
+      "memory": "365MB",
+      "type": "user",
+      "command": "/Applications/Java.app/Contents/MacOS/Java",
+      "user": "mysql"
+    },
+    {
+      "id": 428,
+      "name": "chrome",
+      "pid": 2428,
+      "cpu": 9.0,
+      "memory": "1.3GB",
+      "type": "system",
+      "command": "/usr/bin/chrome",
+      "user": "root"
+    },
+    {
+      "id": 429,
+      "name": "chrome",
+      "pid": 2429,
+      "cpu": 13.2,
+      "memory": "227MB",
+      "type": "system",
+      "command": "/usr/bin/chrome",
+      "user": "www-data"
+    },
+    {
+      "id": 430,
+      "name": "dropbox",
+      "pid": 2430,
+      "cpu": 3.1,
+      "memory": "1.0GB",
+      "type": "user",
+      "command": "/Applications/Dropbox.app/Contents/MacOS/Dropbox",
+      "user": "postgres"
+    },
+    {
+      "id": 431,
+      "name": "spotify",
+      "pid": 2431,
+      "cpu": 6.2,
+      "memory": "893MB",
+      "type": "service",
+      "command": "/usr/bin/spotify",
+      "user": "bob"
+    },
+    {
+      "id": 432,
+      "name": "python",
+      "pid": 2432,
+      "cpu": 12.3,
+      "memory": "420MB",
+      "type": "user",
+      "command": "/Applications/Python.app/Contents/MacOS/Python",
+      "user": "bob"
+    },
+    {
+      "id": 433,
+      "name": "code",
+      "pid": 2433,
+      "cpu": 0.9,
+      "memory": "427MB",
+      "type": "user",
+      "command": "/Applications/Code.app/Contents/MacOS/Code",
+      "user": "root"
+    },
+    {
+      "id": 434,
+      "name": "vscode",
+      "pid": 2434,
+      "cpu": 5.0,
+      "memory": "957MB",
+      "type": "system",
+      "command": "/usr/bin/vscode",
+      "user": "alice"
+    },
+    {
+      "id": 435,
+      "name": "java",
+      "pid": 2435,
+      "cpu": 6.5,
+      "memory": "1.7GB",
+      "type": "user",
+      "command": "/Applications/Java.app/Contents/MacOS/Java",
+      "user": "mongodb"
+    },
+    {
+      "id": 436,
+      "name": "code",
+      "pid": 2436,
+      "cpu": 11.6,
+      "memory": "228MB",
+      "type": "service",
+      "command": "/usr/bin/code",
+      "user": "postgres"
+    },
+    {
+      "id": 437,
+      "name": "safari",
+      "pid": 2437,
+      "cpu": 6.0,
+      "memory": "676MB",
+      "type": "user",
+      "command": "/Applications/Safari.app/Contents/MacOS/Safari",
+      "user": "mysql"
+    },
+    {
+      "id": 438,
+      "name": "zoom",
+      "pid": 2438,
+      "cpu": 14.0,
+      "memory": "307MB",
+      "type": "user",
+      "command": "/Applications/Zoom.app/Contents/MacOS/Zoom",
+      "user": "mongodb"
+    },
+    {
+      "id": 439,
+      "name": "python",
+      "pid": 2439,
+      "cpu": 1.7,
+      "memory": "910MB",
+      "type": "system",
+      "command": "/usr/bin/python",
+      "user": "root"
+    },
+    {
+      "id": 440,
+      "name": "zoom",
+      "pid": 2440,
+      "cpu": 3.3,
+      "memory": "649MB",
+      "type": "user",
+      "command": "/Applications/Zoom.app/Contents/MacOS/Zoom",
+      "user": "bob"
+    },
+    {
+      "id": 441,
+      "name": "xcode",
+      "pid": 2441,
+      "cpu": 4.5,
+      "memory": "708MB",
+      "type": "service",
+      "command": "/usr/bin/xcode",
+      "user": "mysql"
+    },
+    {
+      "id": 442,
+      "name": "code",
+      "pid": 2442,
+      "cpu": 6.5,
+      "memory": "1.4GB",
+      "type": "service",
+      "command": "/usr/bin/code",
+      "user": "mysql"
+    },
+    {
+      "id": 443,
+      "name": "chrome",
+      "pid": 2443,
+      "cpu": 10.7,
+      "memory": "1.8GB",
+      "type": "system",
+      "command": "/usr/bin/chrome",
+      "user": "root"
+    },
+    {
+      "id": 444,
+      "name": "python",
+      "pid": 2444,
+      "cpu": 10.1,
+      "memory": "255MB",
+      "type": "service",
+      "command": "/usr/bin/python",
+      "user": "redis"
+    },
+    {
+      "id": 445,
+      "name": "safari",
+      "pid": 2445,
+      "cpu": 4.0,
+      "memory": "463MB",
+      "type": "user",
+      "command": "/Applications/Safari.app/Contents/MacOS/Safari",
+      "user": "postgres"
+    },
+    {
+      "id": 446,
+      "name": "slack",
+      "pid": 2446,
+      "cpu": 5.8,
+      "memory": "881MB",
+      "type": "system",
+      "command": "/usr/bin/slack",
+      "user": "www-data"
+    },
+    {
+      "id": 447,
+      "name": "nginx",
+      "pid": 2447,
+      "cpu": 1.0,
+      "memory": "789MB",
+      "type": "system",
+      "command": "/usr/bin/nginx",
+      "user": "bob"
+    },
+    {
+      "id": 448,
+      "name": "code",
+      "pid": 2448,
+      "cpu": 11.3,
+      "memory": "478MB",
+      "type": "user",
+      "command": "/Applications/Code.app/Contents/MacOS/Code",
+      "user": "mysql"
+    },
+    {
+      "id": 449,
+      "name": "python",
+      "pid": 2449,
+      "cpu": 4.7,
+      "memory": "1.5GB",
+      "type": "user",
+      "command": "/Applications/Python.app/Contents/MacOS/Python",
+      "user": "bob"
+    },
+    {
+      "id": 450,
+      "name": "docker",
+      "pid": 2450,
+      "cpu": 10.2,
+      "memory": "723MB",
+      "type": "user",
+      "command": "/Applications/Docker.app/Contents/MacOS/Docker",
+      "user": "bob"
+    },
+    {
+      "id": 451,
+      "name": "terminal",
+      "pid": 2451,
+      "cpu": 6.8,
+      "memory": "85MB",
+      "type": "system",
+      "command": "/usr/bin/terminal",
+      "user": "postgres"
+    },
+    {
+      "id": 452,
+      "name": "spotify",
+      "pid": 2452,
+      "cpu": 0.8,
+      "memory": "1.3GB",
+      "type": "user",
+      "command": "/Applications/Spotify.app/Contents/MacOS/Spotify",
+      "user": "mongodb"
+    },
+    {
+      "id": 453,
+      "name": "chrome",
+      "pid": 2453,
+      "cpu": 10.6,
+      "memory": "118MB",
+      "type": "service",
+      "command": "/usr/bin/chrome",
+      "user": "mongodb"
+    },
+    {
+      "id": 454,
+      "name": "intellij",
+      "pid": 2454,
+      "cpu": 1.7,
+      "memory": "1.6GB",
+      "type": "user",
+      "command": "/Applications/Intellij.app/Contents/MacOS/Intellij",
+      "user": "redis"
+    },
+    {
+      "id": 455,
+      "name": "terminal",
+      "pid": 2455,
+      "cpu": 14.4,
+      "memory": "1.3GB",
+      "type": "user",
+      "command": "/Applications/Terminal.app/Contents/MacOS/Terminal",
+      "user": "root"
+    },
+    {
+      "id": 456,
+      "name": "safari",
+      "pid": 2456,
+      "cpu": 14.7,
+      "memory": "1.1GB",
+      "type": "user",
+      "command": "/Applications/Safari.app/Contents/MacOS/Safari",
+      "user": "redis"
+    },
+    {
+      "id": 457,
+      "name": "python",
+      "pid": 2457,
+      "cpu": 0.9,
+      "memory": "859MB",
+      "type": "service",
+      "command": "/usr/bin/python",
+      "user": "redis"
+    },
+    {
+      "id": 458,
+      "name": "node",
+      "pid": 2458,
+      "cpu": 3.5,
+      "memory": "516MB",
+      "type": "user",
+      "command": "/Applications/Node.app/Contents/MacOS/Node",
+      "user": "mongodb"
+    },
+    {
+      "id": 459,
+      "name": "node",
+      "pid": 2459,
+      "cpu": 9.2,
+      "memory": "1.0GB",
+      "type": "system",
+      "command": "/usr/bin/node",
+      "user": "bob"
+    },
+    {
+      "id": 460,
+      "name": "zoom",
+      "pid": 2460,
+      "cpu": 3.0,
+      "memory": "590MB",
+      "type": "system",
+      "command": "/usr/bin/zoom",
+      "user": "redis"
+    },
+    {
+      "id": 461,
+      "name": "chrome",
+      "pid": 2461,
+      "cpu": 14.4,
+      "memory": "933MB",
+      "type": "user",
+      "command": "/Applications/Chrome.app/Contents/MacOS/Chrome",
+      "user": "alice"
+    },
+    {
+      "id": 462,
+      "name": "docker",
+      "pid": 2462,
+      "cpu": 3.5,
+      "memory": "1.9GB",
+      "type": "system",
+      "command": "/usr/bin/docker",
+      "user": "bob"
+    },
+    {
+      "id": 463,
+      "name": "terminal",
+      "pid": 2463,
+      "cpu": 2.6,
+      "memory": "1.4GB",
+      "type": "user",
+      "command": "/Applications/Terminal.app/Contents/MacOS/Terminal",
+      "user": "postgres"
+    },
+    {
+      "id": 464,
+      "name": "spotify",
+      "pid": 2464,
+      "cpu": 13.2,
+      "memory": "1.7GB",
+      "type": "user",
+      "command": "/Applications/Spotify.app/Contents/MacOS/Spotify",
+      "user": "bob"
+    },
+    {
+      "id": 465,
+      "name": "docker",
+      "pid": 2465,
+      "cpu": 11.0,
+      "memory": "25MB",
+      "type": "user",
+      "command": "/Applications/Docker.app/Contents/MacOS/Docker",
+      "user": "postgres"
+    },
+    {
+      "id": 466,
+      "name": "mysql",
+      "pid": 2466,
+      "cpu": 3.3,
+      "memory": "1.9GB",
+      "type": "user",
+      "command": "/Applications/Mysql.app/Contents/MacOS/Mysql",
+      "user": "alice"
+    },
+    {
+      "id": 467,
+      "name": "node",
+      "pid": 2467,
+      "cpu": 2.9,
+      "memory": "1.7GB",
+      "type": "system",
+      "command": "/usr/bin/node",
+      "user": "mysql"
+    },
+    {
+      "id": 468,
+      "name": "firefox",
+      "pid": 2468,
+      "cpu": 3.2,
+      "memory": "1.3GB",
+      "type": "system",
+      "command": "/usr/bin/firefox",
+      "user": "alice"
+    },
+    {
+      "id": 469,
+      "name": "dropbox",
+      "pid": 2469,
+      "cpu": 8.8,
+      "memory": "588MB",
+      "type": "service",
+      "command": "/usr/bin/dropbox",
+      "user": "redis"
+    },
+    {
+      "id": 470,
+      "name": "code",
+      "pid": 2470,
+      "cpu": 4.9,
+      "memory": "391MB",
+      "type": "user",
+      "command": "/Applications/Code.app/Contents/MacOS/Code",
+      "user": "mysql"
+    },
+    {
+      "id": 471,
+      "name": "redis",
+      "pid": 2471,
+      "cpu": 9.6,
+      "memory": "1.9GB",
+      "type": "user",
+      "command": "/Applications/Redis.app/Contents/MacOS/Redis",
+      "user": "www-data"
+    },
+    {
+      "id": 472,
+      "name": "docker",
+      "pid": 2472,
+      "cpu": 10.2,
+      "memory": "351MB",
+      "type": "user",
+      "command": "/Applications/Docker.app/Contents/MacOS/Docker",
+      "user": "mysql"
+    },
+    {
+      "id": 473,
+      "name": "chrome",
+      "pid": 2473,
+      "cpu": 12.9,
+      "memory": "264MB",
+      "type": "user",
+      "command": "/Applications/Chrome.app/Contents/MacOS/Chrome",
+      "user": "alice"
+    },
+    {
+      "id": 474,
+      "name": "zoom",
+      "pid": 2474,
+      "cpu": 12.9,
+      "memory": "907MB",
+      "type": "service",
+      "command": "/usr/bin/zoom",
+      "user": "alice"
+    },
+    {
+      "id": 475,
+      "name": "safari",
+      "pid": 2475,
+      "cpu": 13.5,
+      "memory": "496MB",
+      "type": "user",
+      "command": "/Applications/Safari.app/Contents/MacOS/Safari",
+      "user": "www-data"
+    },
+    {
+      "id": 476,
+      "name": "mongodb",
+      "pid": 2476,
+      "cpu": 10.7,
+      "memory": "942MB",
+      "type": "system",
+      "command": "/usr/bin/mongodb",
+      "user": "mysql"
+    },
+    {
+      "id": 477,
+      "name": "zoom",
+      "pid": 2477,
+      "cpu": 12.5,
+      "memory": "1.9GB",
+      "type": "service",
+      "command": "/usr/bin/zoom",
+      "user": "mysql"
+    },
+    {
+      "id": 478,
+      "name": "mysql",
+      "pid": 2478,
+      "cpu": 6.0,
+      "memory": "899MB",
+      "type": "service",
+      "command": "/usr/bin/mysql",
+      "user": "mongodb"
+    },
+    {
+      "id": 479,
+      "name": "code",
+      "pid": 2479,
+      "cpu": 8.9,
+      "memory": "63MB",
+      "type": "system",
+      "command": "/usr/bin/code",
+      "user": "redis"
+    },
+    {
+      "id": 480,
+      "name": "mysql",
+      "pid": 2480,
+      "cpu": 12.0,
+      "memory": "1.1GB",
+      "type": "system",
+      "command": "/usr/bin/mysql",
+      "user": "bob"
+    },
+    {
+      "id": 481,
+      "name": "spotify",
+      "pid": 2481,
+      "cpu": 11.1,
+      "memory": "333MB",
+      "type": "system",
+      "command": "/usr/bin/spotify",
+      "user": "mysql"
+    },
+    {
+      "id": 482,
+      "name": "mongodb",
+      "pid": 2482,
+      "cpu": 3.8,
+      "memory": "625MB",
+      "type": "system",
+      "command": "/usr/bin/mongodb",
+      "user": "postgres"
+    },
+    {
+      "id": 483,
+      "name": "redis",
+      "pid": 2483,
+      "cpu": 8.9,
+      "memory": "245MB",
+      "type": "user",
+      "command": "/Applications/Redis.app/Contents/MacOS/Redis",
+      "user": "bob"
+    },
+    {
+      "id": 484,
+      "name": "firefox",
+      "pid": 2484,
+      "cpu": 12.4,
+      "memory": "1.2GB",
+      "type": "service",
+      "command": "/usr/bin/firefox",
+      "user": "root"
+    },
+    {
+      "id": 485,
+      "name": "chrome",
+      "pid": 2485,
+      "cpu": 4.4,
+      "memory": "1.6GB",
+      "type": "user",
+      "command": "/Applications/Chrome.app/Contents/MacOS/Chrome",
+      "user": "mysql"
+    },
+    {
+      "id": 486,
+      "name": "zoom",
+      "pid": 2486,
+      "cpu": 13.2,
+      "memory": "921MB",
+      "type": "system",
+      "command": "/usr/bin/zoom",
+      "user": "mongodb"
+    },
+    {
+      "id": 487,
+      "name": "chrome",
+      "pid": 2487,
+      "cpu": 13.1,
+      "memory": "1.9GB",
+      "type": "service",
+      "command": "/usr/bin/chrome",
+      "user": "root"
+    },
+    {
+      "id": 488,
+      "name": "nginx",
+      "pid": 2488,
+      "cpu": 9.1,
+      "memory": "250MB",
+      "type": "user",
+      "command": "/Applications/Nginx.app/Contents/MacOS/Nginx",
+      "user": "www-data"
+    },
+    {
+      "id": 489,
+      "name": "zoom",
+      "pid": 2489,
+      "cpu": 1.3,
+      "memory": "426MB",
+      "type": "user",
+      "command": "/Applications/Zoom.app/Contents/MacOS/Zoom",
+      "user": "redis"
+    },
+    {
+      "id": 490,
+      "name": "safari",
+      "pid": 2490,
+      "cpu": 4.8,
+      "memory": "820MB",
+      "type": "user",
+      "command": "/Applications/Safari.app/Contents/MacOS/Safari",
+      "user": "postgres"
+    },
+    {
+      "id": 491,
+      "name": "chrome",
+      "pid": 2491,
+      "cpu": 13.6,
+      "memory": "58MB",
+      "type": "service",
+      "command": "/usr/bin/chrome",
+      "user": "postgres"
+    },
+    {
+      "id": 492,
+      "name": "mongodb",
+      "pid": 2492,
+      "cpu": 8.9,
+      "memory": "581MB",
+      "type": "service",
+      "command": "/usr/bin/mongodb",
+      "user": "bob"
+    },
+    {
+      "id": 493,
+      "name": "safari",
+      "pid": 2493,
+      "cpu": 14.1,
+      "memory": "315MB",
+      "type": "user",
+      "command": "/Applications/Safari.app/Contents/MacOS/Safari",
+      "user": "mongodb"
+    },
+    {
+      "id": 494,
+      "name": "intellij",
+      "pid": 2494,
+      "cpu": 2.7,
+      "memory": "1.8GB",
+      "type": "user",
+      "command": "/Applications/Intellij.app/Contents/MacOS/Intellij",
+      "user": "alice"
+    },
+    {
+      "id": 495,
+      "name": "python",
+      "pid": 2495,
+      "cpu": 11.9,
+      "memory": "1.7GB",
+      "type": "user",
+      "command": "/Applications/Python.app/Contents/MacOS/Python",
+      "user": "redis"
+    },
+    {
+      "id": 496,
+      "name": "redis",
+      "pid": 2496,
+      "cpu": 8.3,
+      "memory": "1001MB",
+      "type": "service",
+      "command": "/usr/bin/redis",
+      "user": "www-data"
+    },
+    {
+      "id": 497,
+      "name": "spotify",
+      "pid": 2497,
+      "cpu": 11.2,
+      "memory": "1.5GB",
+      "type": "system",
+      "command": "/usr/bin/spotify",
+      "user": "postgres"
+    },
+    {
+      "id": 498,
+      "name": "dropbox",
+      "pid": 2498,
+      "cpu": 5.9,
+      "memory": "1.6GB",
+      "type": "system",
+      "command": "/usr/bin/dropbox",
+      "user": "postgres"
+    },
+    {
+      "id": 499,
+      "name": "spotify",
+      "pid": 2499,
+      "cpu": 11.0,
+      "memory": "1.5GB",
+      "type": "service",
+      "command": "/usr/bin/spotify",
+      "user": "root"
+    },
+    {
+      "id": 500,
+      "name": "xcode",
+      "pid": 2500,
+      "cpu": 11.5,
+      "memory": "292MB",
+      "type": "system",
+      "command": "/usr/bin/xcode",
+      "user": "redis"
+    }
+  ]
+}
