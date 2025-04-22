@@ -92,18 +92,6 @@ const mockProcesses = [
     user: "user1",
     alert: true,
   },
-
-  {
-    id: 12,
-    name: "python",
-    pid: 1678,
-    cpu: 15.2,
-    memory: "520MB",
-    type: "user",
-    command: "python3 data_processor.py",
-    user: "user1",
-    alert: true,
-  },
 ]
 
 interface ProcessTableProps {
